@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0f2fe"/>
+      <stop offset="100%" style="stop-color:#bae6fd"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg5)"/>
+  <!-- Desk -->
+  <rect x="120" y="360" width="360" height="18" rx="4" fill="#a8a29e"/>
+  <rect x="140" y="378" width="8" height="60" rx="2" fill="#78716c"/>
+  <rect x="452" y="378" width="8" height="60" rx="2" fill="#78716c"/>
+  <!-- Two figures sitting at desk -->
+  <!-- Left figure (consultant) -->
+  <circle cx="220" cy="260" r="35" fill="#34d399" opacity="0.6"/>
+  <rect x="200" y="295" width="40" height="65" rx="12" fill="#34d399" opacity="0.5"/>
+  <!-- Right figure (patient) -->
+  <circle cx="380" cy="260" r="35" fill="#a7f3d0" opacity="0.7"/>
+  <rect x="360" y="295" width="40" height="65" rx="12" fill="#a7f3d0" opacity="0.5"/>
+  <!-- Hijab on both -->
+  <path d="M190 255 Q220 230 250 255" fill="#047857" opacity="0.5"/>
+  <path d="M350 255 Q380 230 410 255" fill="#047857" opacity="0.5"/>
+  <!-- Speech bubble -->
+  <rect x="260" y="190" width="120" height="55" rx="16" fill="white" stroke="#0369a1" stroke-width="1.5"/>
+  <polygon points="300,245 290,265 310,265" fill="white" stroke="#0369a1" stroke-width="1"/>
+  <line x1="280" y1="210" x2="355" y2="210" stroke="#94a3b8" stroke-width="3" rx="1.5"/>
+  <line x1="280" y1="225" x2="340" y2="225" stroke="#94a3b8" stroke-width="3" rx="1.5"/>
+  <!-- Heart between them -->
+  <text x="300" y="350" text-anchor="middle" font-size="24" fill="#f43f5e">&#10084;&#65039;</text>
+  <!-- Title -->
+  <text x="300" y="510" text-anchor="middle" font-family="Inter,sans-serif" font-size="28" font-weight="700" fill="#0c4a6e">Konsultasi Gratis</text>
+  <text x="300" y="540" text-anchor="middle" font-family="Inter,sans-serif" font-size="16" fill="#0369a1">Tanya & Konsultasi Sebelum Terapi</text>
+</svg>
