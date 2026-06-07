@@ -1,4 +1,4 @@
-Sitemap: /sitemap.xml
+Sitemap: https://bekam.whitelabel.co.id/sitemap.xml
 
 User-agent: *
 Allow: /$
