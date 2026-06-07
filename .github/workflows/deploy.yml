@@ -11,16 +11,17 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@4.3.5
-        with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PASS }}
-          local-dir: ./
-          server-dir: ${{ secrets.FTP_DIR }}
-          exclude: |
-            .git/**
-            .github/**
-            .gitignore
-            pseo-data.json
-            generate-pseo.ps1
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+          lftp -e "
+            set ssl:verify-certificate no;
+            set ftp:ssl-allow yes;
+            mirror --reverse --delete --parallel=5 \
+              --exclude .git/ \
+              --exclude .github/ \
+              --exclude .gitignore \
+              --exclude pseo-data.json \
+              --exclude generate-pseo.ps1 \
+              ./ ${{ secrets.FTP_DIR }}/
+            quit
+          " -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASS }} ${{ secrets.FTP_HOST }}
