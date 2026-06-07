@@ -1,389 +1,2233 @@
-{
-  "domain": "https://bekamakhwat.com",
-  "phone": "6282117834032",
-  "brand": "BekamAkhwat",
-  "year": 2026,
-  "cities": [
-    {"name":"Jakarta","slug":"jakarta","province":"DKI Jakarta","type":"metropolitan"},
-    {"name":"Jakarta Pusat","slug":"jakarta-pusat","province":"DKI Jakarta","type":"kota"},
-    {"name":"Jakarta Utara","slug":"jakarta-utara","province":"DKI Jakarta","type":"kota"},
-    {"name":"Jakarta Selatan","slug":"jakarta-selatan","province":"DKI Jakarta","type":"kota"},
-    {"name":"Jakarta Timur","slug":"jakarta-timur","province":"DKI Jakarta","type":"kota"},
-    {"name":"Jakarta Barat","slug":"jakarta-barat","province":"DKI Jakarta","type":"kota"},
-    {"name":"Bandung","slug":"bandung","province":"Jawa Barat","type":"metropolitan"},
-    {"name":"Surabaya","slug":"surabaya","province":"Jawa Timur","type":"metropolitan"},
-    {"name":"Medan","slug":"medan","province":"Sumatera Utara","type":"metropolitan"},
-    {"name":"Semarang","slug":"semarang","province":"Jawa Tengah","type":"metropolitan"},
-    {"name":"Yogyakarta","slug":"yogyakarta","province":"DI Yogyakarta","type":"metropolitan"},
-    {"name":"Tangerang","slug":"tangerang","province":"Banten","type":"metropolitan"},
-    {"name":"Tangerang Selatan","slug":"tangerang-selatan","province":"Banten","type":"kota"},
-    {"name":"Depok","slug":"depok","province":"Jawa Barat","type":"kota"},
-    {"name":"Bekasi","slug":"bekasi","province":"Jawa Barat","type":"kota"},
-    {"name":"Bogor","slug":"bogor","province":"Jawa Barat","type":"kota"},
-    {"name":"Makassar","slug":"makassar","province":"Sulawesi Selatan","type":"metropolitan"},
-    {"name":"Palembang","slug":"palembang","province":"Sumatera Selatan","type":"metropolitan"},
-    {"name":"Pekanbaru","slug":"pekanbaru","province":"Riau","type":"metropolitan"},
-    {"name":"Balikpapan","slug":"balikpapan","province":"Kalimantan Timur","type":"kota"},
-    {"name":"Samarinda","slug":"samarinda","province":"Kalimantan Timur","type":"kota"},
-    {"name":"Banjarmasin","slug":"banjarmasin","province":"Kalimantan Selatan","type":"kota"},
-    {"name":"Pontianak","slug":"pontianak","province":"Kalimantan Barat","type":"kota"},
-    {"name":"Manado","slug":"manado","province":"Sulawesi Utara","type":"kota"},
-    {"name":"Denpasar","slug":"denpasar","province":"Bali","type":"kota"},
-    {"name":"Malang","slug":"malang","province":"Jawa Timur","type":"kota"},
-    {"name":"Solo","slug":"solo","province":"Jawa Tengah","type":"kota"},
-    {"name":"Padang","slug":"padang","province":"Sumatera Barat","type":"kota"},
-    {"name":"Bandar Lampung","slug":"bandar-lampung","province":"Lampung","type":"kota"},
-    {"name":"Batam","slug":"batam","province":"Kepulauan Riau","type":"kota"},
-    {"name":"Cirebon","slug":"cirebon","province":"Jawa Barat","type":"kota"},
-    {"name":"Tasikmalaya","slug":"tasikmalaya","province":"Jawa Barat","type":"kota"},
-    {"name":"Cimahi","slug":"cimahi","province":"Jawa Barat","type":"kota"},
-    {"name":"Sukabumi","slug":"sukabumi","province":"Jawa Barat","type":"kota"},
-    {"name":"Cilegon","slug":"cilegon","province":"Banten","type":"kota"},
-    {"name":"Serang","slug":"serang","province":"Banten","type":"kota"},
-    {"name":"Purwokerto","slug":"purwokerto","province":"Jawa Tengah","type":"kota"},
-    {"name":"Purworejo","slug":"purworejo","province":"Jawa Tengah","type":"kota"},
-    {"name":"Magelang","slug":"magelang","province":"Jawa Tengah","type":"kota"},
-    {"name":"Salatiga","slug":"salatiga","province":"Jawa Tengah","type":"kota"},
-    {"name":"Pekalongan","slug":"pekalongan","province":"Jawa Tengah","type":"kota"},
-    {"name":"Tegal","slug":"tegal","province":"Jawa Tengah","type":"kota"},
-    {"name":"Kudus","slug":"kudus","province":"Jawa Tengah","type":"kota"},
-    {"name":"Jepara","slug":"jepara","province":"Jawa Tengah","type":"kota"},
-    {"name":"Pati","slug":"pati","province":"Jawa Tengah","type":"kota"},
-    {"name":"Rembang","slug":"rembang","province":"Jawa Tengah","type":"kota"},
-    {"name":"Klaten","slug":"klaten","province":"Jawa Tengah","type":"kota"},
-    {"name":"Boyolali","slug":"boyolali","province":"Jawa Tengah","type":"kota"},
-    {"name":"Karanganyar","slug":"karanganyar","province":"Jawa Tengah","type":"kota"},
-    {"name":"Sragen","slug":"sragen","province":"Jawa Tengah","type":"kota"},
-    {"name":"Wonogiri","slug":"wonogiri","province":"Jawa Tengah","type":"kota"},
-    {"name":"Sleman","slug":"sleman","province":"DI Yogyakarta","type":"kabupaten"},
-    {"name":"Bantul","slug":"bantul","province":"DI Yogyakarta","type":"kabupaten"},
-    {"name":"Gunung Kidul","slug":"gunung-kidul","province":"DI Yogyakarta","type":"kabupaten"},
-    {"name":"Kulon Progo","slug":"kulon-progo","province":"DI Yogyakarta","type":"kabupaten"},
-    {"name":"Kediri","slug":"kediri","province":"Jawa Timur","type":"kota"},
-    {"name":"Blitar","slug":"blitar","province":"Jawa Timur","type":"kota"},
-    {"name":"Madiun","slug":"madiun","province":"Jawa Timur","type":"kota"},
-    {"name":"Mojokerto","slug":"mojokerto","province":"Jawa Timur","type":"kota"},
-    {"name":"Pasuruan","slug":"pasuruan","province":"Jawa Timur","type":"kota"},
-    {"name":"Probolinggo","slug":"probolinggo","province":"Jawa Timur","type":"kota"},
-    {"name":"Jember","slug":"jember","province":"Jawa Timur","type":"kota"},
-    {"name":"Banyuwangi","slug":"banyuwangi","province":"Jawa Timur","type":"kota"},
-    {"name":"Sidoarjo","slug":"sidoarjo","province":"Jawa Timur","type":"kabupaten"},
-    {"name":"Gresik","slug":"gresik","province":"Jawa Timur","type":"kabupaten"},
-    {"name":"Lamongan","slug":"lamongan","province":"Jawa Timur","type":"kabupaten"},
-    {"name":"Tuban","slug":"tuban","province":"Jawa Timur","type":"kabupaten"},
-    {"name":"Bojonegoro","slug":"bojonegoro","province":"Jawa Timur","type":"kabupaten"},
-    {"name":"Ngawi","slug":"ngawi","province":"Jawa Timur","type":"kabupaten"},
-    {"name":"Ponorogo","slug":"ponorogo","province":"Jawa Timur","type":"kabupaten"},
-    {"name":"Pacitan","slug":"pacitan","province":"Jawa Timur","type":"kabupaten"},
-    {"name":"Trenggalek","slug":"trenggalek","province":"Jawa Timur","type":"kabupaten"},
-    {"name":"Tulungagung","slug":"tulungagung","province":"Jawa Timur","type":"kabupaten"},
-    {"name":"Lumajang","slug":"lumajang","province":"Jawa Timur","type":"kabupaten"},
-    {"name":"Situbondo","slug":"situbondo","province":"Jawa Timur","type":"kabupaten"},
-    {"name":"Bondowoso","slug":"bondowoso","province":"Jawa Timur","type":"kabupaten"},
-    {"name":"Bangkalan","slug":"bangkalan","province":"Jawa Timur","type":"kabupaten"},
-    {"name":"Sampang","slug":"sampang","province":"Jawa Timur","type":"kabupaten"},
-    {"name":"Pamekasan","slug":"pamekasan","province":"Jawa Timur","type":"kabupaten"},
-    {"name":"Sumenep","slug":"sumenep","province":"Jawa Timur","type":"kabupaten"},
-    {"name":"Banda Aceh","slug":"banda-aceh","province":"Aceh","type":"kota"},
-    {"name":"Lhokseumawe","slug":"lhokseumawe","province":"Aceh","type":"kota"},
-    {"name":"Langsa","slug":"langsa","province":"Aceh","type":"kota"},
-    {"name":"Binjai","slug":"binjai","province":"Sumatera Utara","type":"kota"},
-    {"name":"Pematang Siantar","slug":"pematang-siantar","province":"Sumatera Utara","type":"kota"},
-    {"name":"Tebing Tinggi","slug":"tebing-tinggi","province":"Sumatera Utara","type":"kota"},
-    {"name":"Padang Sidempuan","slug":"padang-sidempuan","province":"Sumatera Utara","type":"kota"},
-    {"name":"Sibolga","slug":"sibolga","province":"Sumatera Utara","type":"kota"},
-    {"name":"Bukittinggi","slug":"bukittinggi","province":"Sumatera Barat","type":"kota"},
-    {"name":"Payakumbuh","slug":"payakumbuh","province":"Sumatera Barat","type":"kota"},
-    {"name":"Solok","slug":"solok","province":"Sumatera Barat","type":"kota"},
-    {"name":"Pariaman","slug":"pariaman","province":"Sumatera Barat","type":"kota"},
-    {"name":"Sawahlunto","slug":"sawahlunto","province":"Sumatera Barat","type":"kota"},
-    {"name":"Dumai","slug":"dumai","province":"Riau","type":"kota"},
-    {"name":"Jambi","slug":"jambi","province":"Jambi","type":"kota"},
-    {"name":"Sungai Penuh","slug":"sungai-penuh","province":"Jambi","type":"kota"},
-    {"name":"Bengkulu","slug":"bengkulu","province":"Bengkulu","type":"kota"},
-    {"name":"Palangkaraya","slug":"palangkaraya","province":"Kalimantan Tengah","type":"kota"},
-    {"name":"Banjarbaru","slug":"banjarbaru","province":"Kalimantan Selatan","type":"kota"},
-    {"name":"Tarakan","slug":"tarakan","province":"Kalimantan Utara","type":"kota"},
-    {"name":"Bontang","slug":"bontang","province":"Kalimantan Timur","type":"kota"},
-    {"name":"Singkawang","slug":"singkawang","province":"Kalimantan Barat","type":"kota"},
-    {"name":"Palu","slug":"palu","province":"Sulawesi Tengah","type":"kota"},
-    {"name":"Kendari","slug":"kendari","province":"Sulawesi Tenggara","type":"kota"},
-    {"name":"Gorontalo","slug":"gorontalo","province":"Gorontalo","type":"kota"},
-    {"name":"Bitung","slug":"bitung","province":"Sulawesi Utara","type":"kota"},
-    {"name":"Tomohon","slug":"tomohon","province":"Sulawesi Utara","type":"kota"},
-    {"name":"Kotamobagu","slug":"kotamobagu","province":"Sulawesi Utara","type":"kota"},
-    {"name":"Parepare","slug":"parepare","province":"Sulawesi Selatan","type":"kota"},
-    {"name":"Palopo","slug":"palopo","province":"Sulawesi Selatan","type":"kota"},
-    {"name":"Bau-Bau","slug":"bau-bau","province":"Sulawesi Tenggara","type":"kota"},
-    {"name":"Ambon","slug":"ambon","province":"Maluku","type":"kota"},
-    {"name":"Tual","slug":"tual","province":"Maluku","type":"kota"},
-    {"name":"Ternate","slug":"ternate","province":"Maluku Utara","type":"kota"},
-    {"name":"Tidore","slug":"tidore","province":"Maluku Utara","type":"kota"},
-    {"name":"Jayapura","slug":"jayapura","province":"Papua","type":"kota"},
-    {"name":"Sorong","slug":"sorong","province":"Papua Barat Daya","type":"kota"},
-    {"name":"Manokwari","slug":"manokwari","province":"Papua Barat","type":"kota"},
-    {"name":"Merauke","slug":"merauke","province":"Papua Selatan","type":"kota"},
-    {"name":"Biak","slug":"biak","province":"Papua","type":"kota"},
-    {"name":"Timika","slug":"timika","province":"Papua Tengah","type":"kota"},
-    {"name":"Mataram","slug":"mataram","province":"Nusa Tenggara Barat","type":"kota"},
-    {"name":"Bima","slug":"bima","province":"Nusa Tenggara Barat","type":"kota"},
-    {"name":"Sumbawa","slug":"sumbawa","province":"Nusa Tenggara Barat","type":"kabupaten"},
-    {"name":"Kupang","slug":"kupang","province":"Nusa Tenggara Timur","type":"kota"},
-    {"name":"Ende","slug":"ende","province":"Nusa Tenggara Timur","type":"kabupaten"},
-    {"name":"Maumere","slug":"maumere","province":"Nusa Tenggara Timur","type":"kabupaten"},
-    {"name":"Ruteng","slug":"ruteng","province":"Nusa Tenggara Timur","type":"kabupaten"},
-    {"name":"Labuan Bajo","slug":"labuan-bajo","province":"Nusa Tenggara Timur","type":"kabupaten"},
-    {"name":"Waingapu","slug":"waingapu","province":"Nusa Tenggara Timur","type":"kabupaten"},
-    {"name":"Atambua","slug":"atambua","province":"Nusa Tenggara Timur","type":"kabupaten"},
-    {"name":"Pangkal Pinang","slug":"pangkal-pinang","province":"Kepulauan Bangka Belitung","type":"kota"},
-    {"name":"Tanjung Pinang","slug":"tanjung-pinang","province":"Kepulauan Riau","type":"kota"},
-    {"name":"Serpong","slug":"serpong","province":"Banten","type":"kecamatan"},
-    {"name":"Cibubur","slug":"cibubur","province":"Jawa Barat","type":"kecamatan"},
-    {"name":"Kelapa Gading","slug":"kelapa-gading","province":"DKI Jakarta","type":"kecamatan"},
-    {"name":"Cikarang","slug":"cikarang","province":"Jawa Barat","type":"kecamatan"},
-    {"name":"Karawang","slug":"karawang","province":"Jawa Barat","type":"kabupaten"},
-    {"name":"Cianjur","slug":"cianjur","province":"Jawa Barat","type":"kabupaten"},
-    {"name":"Garut","slug":"garut","province":"Jawa Barat","type":"kabupaten"},
-    {"name":"Sumedang","slug":"sumedang","province":"Jawa Barat","type":"kabupaten"},
-    {"name":"Majalengka","slug":"majalengka","province":"Jawa Barat","type":"kabupaten"},
-    {"name":"Indramayu","slug":"indramayu","province":"Jawa Barat","type":"kabupaten"},
-    {"name":"Kuningan","slug":"kuningan","province":"Jawa Barat","type":"kabupaten"},
-    {"name":"Subang","slug":"subang","province":"Jawa Barat","type":"kabupaten"},
-    {"name":"Purwakarta","slug":"purwakarta","province":"Jawa Barat","type":"kabupaten"},
-    {"name":"Banjarnegara","slug":"banjarnegara","province":"Jawa Tengah","type":"kabupaten"},
-    {"name":"Banyumas","slug":"banyumas","province":"Jawa Tengah","type":"kabupaten"},
-    {"name":"Batang","slug":"batang","province":"Jawa Tengah","type":"kabupaten"},
-    {"name":"Blora","slug":"blora","province":"Jawa Tengah","type":"kabupaten"},
-    {"name":"Brebes","slug":"brebes","province":"Jawa Tengah","type":"kabupaten"},
-    {"name":"Cilacap","slug":"cilacap","province":"Jawa Tengah","type":"kabupaten"},
-    {"name":"Demak","slug":"demak","province":"Jawa Tengah","type":"kabupaten"},
-    {"name":"Grobogan","slug":"grobogan","province":"Jawa Tengah","type":"kabupaten"},
-    {"name":"Kendal","slug":"kendal","province":"Jawa Tengah","type":"kabupaten"},
-    {"name":"Kebumen","slug":"kebumen","province":"Jawa Tengah","type":"kabupaten"},
-    {"name":"Pemalang","slug":"pemalang","province":"Jawa Tengah","type":"kabupaten"},
-    {"name":"Purbalingga","slug":"purbalingga","province":"Jawa Tengah","type":"kabupaten"},
-    {"name":"Temanggung","slug":"temanggung","province":"Jawa Tengah","type":"kabupaten"},
-    {"name":"Wonosobo","slug":"wonosobo","province":"Jawa Tengah","type":"kabupaten"},
-    {"name":"Aceh Besar","slug":"aceh-besar","province":"Aceh","type":"kabupaten"},
-    {"name":"Aceh Utara","slug":"aceh-utara","province":"Aceh","type":"kabupaten"},
-    {"name":"Deli Serdang","slug":"deli-serdang","province":"Sumatera Utara","type":"kabupaten"},
-    {"name":"Langkat","slug":"langkat","province":"Sumatera Utara","type":"kabupaten"},
-    {"name":"Asahan","slug":"asahan","province":"Sumatera Utara","type":"kabupaten"},
-    {"name":"Labuhanbatu","slug":"labuhanbatu","province":"Sumatera Utara","type":"kabupaten"},
-    {"name":"Tapanuli","slug":"tapanuli","province":"Sumatera Utara","type":"kabupaten"},
-    {"name":"Agam","slug":"agam","province":"Sumatera Barat","type":"kabupaten"},
-    {"name":"Tanah Datar","slug":"tanah-datar","province":"Sumatera Barat","type":"kabupaten"},
-    {"name":"Pasaman","slug":"pasaman","province":"Sumatera Barat","type":"kabupaten"},
-    {"name":"Kampar","slug":"kampar","province":"Riau","type":"kabupaten"},
-    {"name":"Bengkalis","slug":"bengkalis","province":"Riau","type":"kabupaten"},
-    {"name":"Indragiri","slug":"indragiri","province":"Riau","type":"kabupaten"},
-    {"name":"Batanghari","slug":"batanghari","province":"Jambi","type":"kabupaten"},
-    {"name":"Bungo","slug":"bungo","province":"Jambi","type":"kabupaten"},
-    {"name":"Muaro Jambi","slug":"muaro-jambi","province":"Jambi","type":"kabupaten"},
-    {"name":"Ogan Ilir","slug":"ogan-ilir","province":"Sumatera Selatan","type":"kabupaten"},
-    {"name":"Ogan Komering","slug":"ogan-komering","province":"Sumatera Selatan","type":"kabupaten"},
-    {"name":"Musi Banyuasin","slug":"musi-banyuasin","province":"Sumatera Selatan","type":"kabupaten"},
-    {"name":"Lahat","slug":"lahat","province":"Sumatera Selatan","type":"kabupaten"},
-    {"name":"Lubuk Linggau","slug":"lubuk-linggau","province":"Sumatera Selatan","type":"kota"},
-    {"name":"Prabumulih","slug":"prabumulih","province":"Sumatera Selatan","type":"kota"},
-    {"name":"Metro","slug":"metro","province":"Lampung","type":"kota"},
-    {"name":"Kotabumi","slug":"kotabumi","province":"Lampung","type":"kabupaten"},
-    {"name":"Pringsewu","slug":"pringsewu","province":"Lampung","type":"kabupaten"},
-    {"name":"Ketapang","slug":"ketapang","province":"Kalimantan Barat","type":"kabupaten"},
-    {"name":"Sintang","slug":"sintang","province":"Kalimantan Barat","type":"kabupaten"},
-    {"name":"Sambas","slug":"sambas","province":"Kalimantan Barat","type":"kabupaten"},
-    {"name":"Kubu Raya","slug":"kubu-raya","province":"Kalimantan Barat","type":"kabupaten"},
-    {"name":"Kotawaringin","slug":"kotawaringin","province":"Kalimantan Tengah","type":"kabupaten"},
-    {"name":"Barito","slug":"barito","province":"Kalimantan Tengah","type":"kabupaten"},
-    {"name":"Kapuas","slug":"kapuas","province":"Kalimantan Tengah","type":"kabupaten"},
-    {"name":"Tanah Laut","slug":"tanah-laut","province":"Kalimantan Selatan","type":"kabupaten"},
-    {"name":"Tanah Bumbu","slug":"tanah-bumbu","province":"Kalimantan Selatan","type":"kabupaten"},
-    {"name":"Kotabaru","slug":"kotabaru","province":"Kalimantan Selatan","type":"kabupaten"},
-    {"name":"Tapin","slug":"tapin","province":"Kalimantan Selatan","type":"kabupaten"},
-    {"name":"Hulu Sungai","slug":"hulu-sungai","province":"Kalimantan Selatan","type":"kabupaten"},
-    {"name":"Kutai","slug":"kutai","province":"Kalimantan Timur","type":"kabupaten"},
-    {"name":"Paser","slug":"paser","province":"Kalimantan Timur","type":"kabupaten"},
-    {"name":"Berau","slug":"berau","province":"Kalimantan Timur","type":"kabupaten"},
-    {"name":"Bulungan","slug":"bulungan","province":"Kalimantan Utara","type":"kabupaten"},
-    {"name":"Malinau","slug":"malinau","province":"Kalimantan Utara","type":"kabupaten"},
-    {"name":"Nunukan","slug":"nunukan","province":"Kalimantan Utara","type":"kabupaten"},
-    {"name":"Minahasa","slug":"minahasa","province":"Sulawesi Utara","type":"kabupaten"},
-    {"name":"Bolaang Mongondow","slug":"bolaang-mongondow","province":"Sulawesi Utara","type":"kabupaten"},
-    {"name":"Sangihe","slug":"sangihe","province":"Sulawesi Utara","type":"kabupaten"},
-    {"name":"Talaud","slug":"talaud","province":"Sulawesi Utara","type":"kabupaten"},
-    {"name":"Poso","slug":"poso","province":"Sulawesi Tengah","type":"kabupaten"},
-    {"name":"Donggala","slug":"donggala","province":"Sulawesi Tengah","type":"kabupaten"},
-    {"name":"Toli-Toli","slug":"toli-toli","province":"Sulawesi Tengah","type":"kabupaten"},
-    {"name":"Banggai","slug":"banggai","province":"Sulawesi Tengah","type":"kabupaten"},
-    {"name":"Morowali","slug":"morowali","province":"Sulawesi Tengah","type":"kabupaten"},
-    {"name":"Bone","slug":"bone","province":"Sulawesi Selatan","type":"kabupaten"},
-    {"name":"Gowa","slug":"gowa","province":"Sulawesi Selatan","type":"kabupaten"},
-    {"name":"Maros","slug":"maros","province":"Sulawesi Selatan","type":"kabupaten"},
-    {"name":"Pangkep","slug":"pangkep","province":"Sulawesi Selatan","type":"kabupaten"},
-    {"name":"Bulukumba","slug":"bulukumba","province":"Sulawesi Selatan","type":"kabupaten"},
-    {"name":"Sinjai","slug":"sinjai","province":"Sulawesi Selatan","type":"kabupaten"},
-    {"name":"Soppeng","slug":"soppeng","province":"Sulawesi Selatan","type":"kabupaten"},
-    {"name":"Wajo","slug":"wajo","province":"Sulawesi Selatan","type":"kabupaten"},
-    {"name":"Sidrap","slug":"sidrap","province":"Sulawesi Selatan","type":"kabupaten"},
-    {"name":"Enrekang","slug":"enrekang","province":"Sulawesi Selatan","type":"kabupaten"},
-    {"name":"Luwu","slug":"luwu","province":"Sulawesi Selatan","type":"kabupaten"},
-    {"name":"Tana Toraja","slug":"tana-toraja","province":"Sulawesi Selatan","type":"kabupaten"},
-    {"name":"Kolaka","slug":"kolaka","province":"Sulawesi Tenggara","type":"kabupaten"},
-    {"name":"Buton","slug":"buton","province":"Sulawesi Tenggara","type":"kabupaten"},
-    {"name":"Muna","slug":"muna","province":"Sulawesi Tenggara","type":"kabupaten"},
-    {"name":"Konawe","slug":"konawe","province":"Sulawesi Tenggara","type":"kabupaten"},
-    {"name":"Lombok","slug":"lombok","province":"Nusa Tenggara Barat","type":"pulau"},
-    {"name":"Sumbawa Besar","slug":"sumbawa-besar","province":"Nusa Tenggara Barat","type":"kota"},
-    {"name":"Dompu","slug":"dompu","province":"Nusa Tenggara Barat","type":"kabupaten"},
-    {"name":"Flores","slug":"flores","province":"Nusa Tenggara Timur","type":"pulau"},
-    {"name":"Timor","slug":"timor","province":"Nusa Tenggara Timur","type":"pulau"},
-    {"name":"Sumba","slug":"sumba","province":"Nusa Tenggara Timur","type":"pulau"},
-    {"name":"Alor","slug":"alor","province":"Nusa Tenggara Timur","type":"kabupaten"},
-    {"name":"Rote","slug":"rote","province":"Nusa Tenggara Timur","type":"kabupaten"},
-    {"name":"Buru","slug":"buru","province":"Maluku","type":"pulau"},
-    {"name":"Seram","slug":"seram","province":"Maluku","type":"pulau"},
-    {"name":"Halmahera","slug":"halmahera","province":"Maluku Utara","type":"pulau"},
-    {"name":"Yapen","slug":"yapen","province":"Papua","type":"kabupaten"},
-    {"name":"Nabire","slug":"nabire","province":"Papua Tengah","type":"kabupaten"},
-    {"name":"Mimika","slug":"mimika","province":"Papua Tengah","type":"kabupaten"},
-    {"name":"Fakfak","slug":"fakfak","province":"Papua Barat","type":"kabupaten"},
-    {"name":"Raja Ampat","slug":"raja-ampat","province":"Papua Barat Daya","type":"kabupaten"},
-    {"name":"Bintuni","slug":"bintuni","province":"Papua Barat","type":"kabupaten"},
-    {"name":"Kaimana","slug":"kaimana","province":"Papua Barat","type":"kabupaten"},
-    {"name":"Sarmi","slug":"sarmi","province":"Papua","type":"kabupaten"},
-    {"name":"Keerom","slug":"keerom","province":"Papua","type":"kabupaten"},
-    {"name":"Jayawijaya","slug":"jayawijaya","province":"Papua Pegunungan","type":"kabupaten"},
-    {"name":"Puncak Jaya","slug":"puncak-jaya","province":"Papua Tengah","type":"kabupaten"},
-    {"name":"Sukoharjo","slug":"sukoharjo","province":"Jawa Tengah","type":"kabupaten"},
-    {"name":"Wonogiri","slug":"wonogiri","province":"Jawa Tengah","type":"kabupaten"},
-    {"name":"Tanjung Priok","slug":"tanjung-priok","province":"DKI Jakarta","type":"kecamatan"}
-  ],
-  "conditions": [
-    {"name":"Migrain","slug":"migrain","desc":"sakit kepala sebelah kronis","category":"sakit-kepala"},
-    {"name":"Darah Tinggi","slug":"darah-tinggi","desc":"hipertensi atau tekanan darah tinggi","category":"kardiovaskular"},
-    {"name":"Asam Urat","slug":"asam-urat","desc":"nyeri sendi akibat kadar asam urat tinggi","category":"sendi"},
-    {"name":"Kolesterol","slug":"kolesterol","desc":"kadar kolesterol tinggi dalam darah","category":"kardiovaskular"},
-    {"name":"Pegal Linu","slug":"pegal-linu","desc":"nyeri otot dan badan pegal","category":"otot"},
-    {"name":"Nyeri Punggung","slug":"nyeri-punggung","desc":"sakit pada area punggung","category":"otot"},
-    {"name":"Nyeri Sendi","slug":"nyeri-sendi","desc":"radang dan nyeri pada persendian","category":"sendi"},
-    {"name":"Masuk Angin","slug":"masuk-angin","desc":"gejala tidak enak badan","category":"ringan"},
-    {"name":"Insomnia","slug":"insomnia","desc":"susah tidur atau gangguan tidur","category":"mental"},
-    {"name":"Stress","slug":"stress","desc":"stres dan tekanan mental","category":"mental"},
-    {"name":"Kesemutan","slug":"kesemutan","desc":"kebas dan kesemutan pada tangan dan kaki","category":"saraf"},
-    {"name":"Sakit Lutut","slug":"sakit-lutut","desc":"nyeri pada lutut","category":"sendi"},
-    {"name":"Sakit Bahu","slug":"sakit-bahu","desc":"nyeri dan kaku pada bahu","category":"otot"},
-    {"name":"Sakit Leher","slug":"sakit-leher","desc":"nyeri dan tegang pada leher","category":"otot"},
-    {"name":"Sakit Pinggang","slug":"sakit-pinggang","desc":"nyeri pada area pinggang","category":"otot"},
-    {"name":"Vertigo","slug":"vertigo","desc":"pusing berputar dan kehilangan keseimbangan","category":"sakit-kepala"},
-    {"name":"Sinusitis","slug":"sinusitis","desc":"radang pada rongga sinus","category":"pernafasan"},
-    {"name":"Asma","slug":"asma","desc":"gangguan pernafasan sesak nafas","category":"pernafasan"},
-    {"name":"Batuk Kronis","slug":"batuk-kronis","desc":"batuk berkepanjangan","category":"pernafasan"},
-    {"name":"Pencernaan","slug":"pencernaan","desc":"gangguan sistem pencernaan","category":"pencernaan"},
-    {"name":"Maag","slug":"maag","desc":"sakit lambung dan asam lambung","category":"pencernaan"},
-    {"name":"Sembelit","slug":"sembelit","desc":"susah buang air besar","category":"pencernaan"},
-    {"name":"Haid Tidak Lancar","slug":"haid-tidak-lancar","desc":"gangguan siklus menstruasi","category":"wanita"},
-    {"name":"Nyeri Haid","slug":"nyeri-haid","desc":"sakit saat menstruasi","category":"wanita"},
-    {"name":"Keputihan","slug":"keputihan","desc":"cairan berlebih pada area kewanitaan","category":"wanita"},
-    {"name":"Kista","slug":"kista","desc":"kista ovarium ringan","category":"wanita"},
-    {"name":"PCOS","slug":"pcos","desc":"sindrom ovarium polikistik","category":"wanita"},
-    {"name":"Miom","slug":"miom","desc":"tumor jinak pada rahim","category":"wanita"},
-    {"name":"Endometriosis","slug":"endometriosis","desc":"pertumbuhan jaringan di luar rahim","category":"wanita"},
-    {"name":"Diabetes","slug":"diabetes","desc":"kadar gula darah tinggi","category":"metabolik"},
-    {"name":"Obesitas","slug":"obesitas","desc":"kelebihan berat badan","category":"metabolik"},
-    {"name":"Lumpuh Sebelah","slug":"lumpuh-sebelah","desc":"stroke ringan atau bell's palsy","category":"saraf"},
-    {"name":"Saraf Kejepit","slug":"saraf-kejepit","desc":"saraf terjepit di tulang belakang","category":"saraf"},
-    {"name":"Linu Panggul","slug":"linu-panggul","desc":"nyeri menjalar dari pinggang ke kaki","category":"saraf"},
-    {"name":"Sakit Gigi","slug":"sakit-gigi","desc":"nyeri pada gigi dan gusi","category":"lainnya"},
-    {"name":"Jerawat","slug":"jerawat","desc":"masalah kulit wajah berjerawat","category":"kulit"},
-    {"name":"Eksim","slug":"eksim","desc":"peradangan kulit kronis","category":"kulit"},
-    {"name":"Alergi","slug":"alergi","desc":"reaksi alergi berlebihan","category":"imun"},
-    {"name":"Imun Lemah","slug":"imun-lemah","desc":"sistem kekebalan tubuh rendah","category":"imun"},
-    {"name":"Anemia","slug":"anemia","desc":"kekurangan sel darah merah","category":"darah"},
-    {"name":"Wasir","slug":"wasir","desc":"ambeien atau pembengkakan pembuluh darah","category":"pencernaan"},
-    {"name":"Varises","slug":"varises","desc":"pembuluh darah vena membesar","category":"kardiovaskular"},
-    {"name":"Kaki Bengkak","slug":"kaki-bengkak","desc":"edema atau pembengkakan kaki","category":"kardiovaskular"},
-    {"name":"Kram Otot","slug":"kram-otot","desc":"kejang otot mendadak","category":"otot"},
-    {"name":"Sakit Kepala","slug":"sakit-kepala","desc":"nyeri kepala secara umum","category":"sakit-kepala"},
-    {"name":"Jantung","slug":"jantung","desc":"gangguan kardiovaskular","category":"kardiovaskular"},
-    {"name":"Lelah Kronis","slug":"lelah-kronis","desc":"kelelahan berkepanjangan","category":"mental"},
-    {"name":"Cemas","slug":"cemas","desc":"gangguan kecemasan berlebih","category":"mental"},
-    {"name":"Depresi","slug":"depresi","desc":"gangguan mood dan depresi ringan","category":"mental"},
-    {"name":"Stroke Ringan","slug":"stroke-ringan","desc":"gejala awal stroke","category":"saraf"},
-    {"name":"Epilepsi","slug":"epilepsi","desc":"gangguan kejang pada otak","category":"saraf"},
-    {"name":"Parkinson","slug":"parkinson","desc":"gangguan gerak pada lansia","category":"saraf"},
-    {"name":"Asam Lambung","slug":"asam-lambung","desc":"GERD atau refluks asam lambung","category":"pencernaan"},
-    {"name":"Tipes","slug":"tipes","desc":"demam tifoid pemulihan","category":"infeksi"},
-    {"name":"DBD","slug":"dbd","desc":"demam berdarah pemulihan","category":"infeksi"},
-    {"name":"Hepatitis","slug":"hepatitis","desc":"radang hati atau liver","category":"infeksi"},
-    {"name":"Ginjal","slug":"ginjal","desc":"gangguan fungsi ginjal","category":"organ"},
-    {"name":"Paru-Paru","slug":"paru-paru","desc":"gangguan pernafasan kronis","category":"pernafasan"},
-    {"name":"Hati","slug":"hati","desc":"gangguan fungsi liver","category":"organ"},
-    {"name":"Limpa","slug":"limpa","desc":"gangguan limpa","category":"organ"},
-    {"name":"Tiroid","slug":"tiroid","desc":"gangguan kelenjar tiroid","category":"hormon"},
-    {"name":"Hormon","slug":"hormon","desc":"ketidakseimbangan hormon","category":"hormon"},
-    {"name":"Menopause","slug":"menopause","desc":"gejala menopause pada wanita","category":"wanita"},
-    {"name":"Kesuburan","slug":"kesuburan","desc":"masalah kesuburan atau fertilitas","category":"wanita"},
-    {"name":"Hamil","slug":"hamil","desc":"keluhan selama kehamilan","category":"wanita"},
-    {"name":"Pasca Melahirkan","slug":"pasca-melahirkan","desc":"pemulihan setelah melahirkan","category":"wanita"},
-    {"name":"Rematik","slug":"rematik","desc":"radang sendi kronis","category":"sendi"},
-    {"name":"Osteoporosis","slug":"osteoporosis","desc":"pengeroposan tulang","category":"tulang"},
-    {"name":"Pengapuran","slug":"pengapuran","desc":"pengapuran sendi dan tulang","category":"tulang"},
-    {"name":"Patah Tulang","slug":"patah-tulang","desc":"pemulihan pasca patah tulang","category":"tulang"},
-    {"name":"Cedera Olahraga","slug":"cedera-olahraga","desc":"cedera akibat aktivitas olahraga","category":"otot"}
-  ],
-  "topics": [
-    {"name":"Bekam Sunnah","slug":"bekam-sunnah","desc":"Panduan bekam sesuai sunnah Rasulullah SAW"},
-    {"name":"Titik Bekam","slug":"titik-bekam","desc":"Titik-titik bekam yang dianjurkan"},
-    {"name":"Hari Terbaik Bekam","slug":"hari-terbaik-bekam","desc":"Hari-hari yang dianjurkan untuk bekam"},
-    {"name":"Persiapan Sebelum Bekam","slug":"persiapan-sebelum-bekam","desc":"Yang perlu disiapkan sebelum terapi"},
-    {"name":"Pantangan Setelah Bekam","slug":"pantangan-setelah-bekam","desc":"Yang dihindari setelah terapi bekam"},
-    {"name":"Bekam untuk Pemula","slug":"bekam-untuk-pemula","desc":"Panduan bekam pertama kali"},
-    {"name":"Manfaat Bekam","slug":"manfaat-bekam","desc":"Manfaat bekam bagi kesehatan"},
-    {"name":"Efek Samping Bekam","slug":"efek-samping-bekam","desc":"Efek samping normal setelah bekam"},
-    {"name":"Bekam vs Medis","slug":"bekam-vs-medis","desc":"Perbandingan terapi bekam dan medis modern"},
-    {"name":"Sejarah Bekam","slug":"sejarah-bekam","desc":"Sejarah terapi bekam dari zaman nabi"},
-    {"name":"Hadits Tentang Bekam","slug":"hadits-tentang-bekam","desc":"Kumpulan hadits tentang bekam"},
-    {"name":"Doa Sebelum Bekam","slug":"doa-sebelum-bekam","desc":"Doa dan bacaan sebelum terapi"},
-    {"name":"Bekam untuk Ibu Hamil","slug":"bekam-untuk-ibu-hamil","desc":"Panduan bekam untuk ibu hamil"},
-    {"name":"Bekam untuk Lansia","slug":"bekam-untuk-lansia","desc":"Bekam untuk orang tua atau lansia"},
-    {"name":"Bekam untuk Anak","slug":"bekam-untuk-anak","desc":"Bekam untuk anak-anak"},
-    {"name":"Alat Bekam Modern","slug":"alat-bekam-modern","desc":"Peralatan bekam modern vs tradisional"},
-    {"name":"Sterilisasi Alat Bekam","slug":"sterilisasi-alat-bekam","desc":"Cara sterilisasi alat bekam yang benar"},
-    {"name":"Bekam dan Ruqyah","slug":"bekam-dan-ruqyah","desc":"Kombinasi bekam dengan terapi ruqyah"},
-    {"name":"Bekam untuk Kecantikan","slug":"bekam-untuk-kecantikan","desc":"Bekam untuk perawatan kecantikan"},
-    {"name":"Biaya Bekam","slug":"biaya-bekam","desc":"Estimasi biaya bekam di Indonesia"}
-  ],
-  "comparisons": [
-    {"a":"Bekam Kering","aSlug":"bekam-kering","b":"Bekam Basah","bSlug":"bekam-basah","context":"perbedaan metode bekam"},
-    {"a":"Bekam","aSlug":"bekam","b":"Akupuntur","bSlug":"akupuntur","context":"terapi alternatif"},
-    {"a":"Bekam","aSlug":"bekam","b":"Pijat Refleksi","bSlug":"pijat-refleksi","context":"terapi tubuh"},
-    {"a":"Bekam","aSlug":"bekam","b":"Chiropractic","bSlug":"chiropractic","context":"terapi tulang"},
-    {"a":"Bekam","aSlug":"bekam","b":"Gurah","bSlug":"gurah","context":"terapi tradisional"},
-    {"a":"Bekam","aSlug":"bekam","b":"Totok Punggung","bSlug":"totok-punggung","context":"terapi tradisional"},
-    {"a":"Bekam","aSlug":"bekam","b":"Kerokan","bSlug":"kerokan","context":"terapi tradisional"},
-    {"a":"Bekam","aSlug":"bekam","b":"Fisioterapi","bSlug":"fisioterapi","context":"rehabilitasi fisik"},
-    {"a":"Bekam Basah","aSlug":"bekam-basah","b":"Donor Darah","bSlug":"donor-darah","context":"pengeluaran darah"},
-    {"a":"Bekam","aSlug":"bekam","b":"Obat Kimia","bSlug":"obat-kimia","context":"pengobatan"},
-    {"a":"Bekam","aSlug":"bekam","b":"Herbal","bSlug":"herbal","context":"pengobatan alami"},
-    {"a":"Bekam","aSlug":"bekam","b":"Terapi Listrik","bSlug":"terapi-listrik","context":"terapi modern"},
-    {"a":"Bekam Klinik","aSlug":"bekam-klinik","b":"Bekam Panggilan","bSlug":"bekam-panggilan","context":"jenis layanan"},
-    {"a":"Bekam Manual","aSlug":"bekam-manual","b":"Bekam Elektrik","bSlug":"bekam-elektrik","context":"alat bekam"},
-    {"a":"Bekam Satu Kali","aSlug":"bekam-satu-kali","b":"Bekam Rutin","bSlug":"bekam-rutin","context":"frekuensi"},
-    {"a":"Bekam","aSlug":"bekam","b":"Thibbun Nabawi","bSlug":"thibbun-nabawi","context":"pengobatan islami"},
-    {"a":"Bekam Pria","aSlug":"bekam-pria","b":"Bekam Wanita","bSlug":"bekam-wanita","context":"gender"},
-    {"a":"Bekam Rumahan","aSlug":"bekam-rumahan","b":"Bekam Profesional","bSlug":"bekam-profesional","context":"tempat"},
-    {"a":"Bekam Premium","aSlug":"bekam-premium","b":"Bekam Ekonomis","bSlug":"bekam-ekonomis","context":"harga"}
-  ],
-  "sourceCodePages": [
-    {"slug":"source-code-aplikasi-bekam","title":"Source Code Aplikasi Bekam — Jual Beli Source Code Klinik Bekam"},
-    {"slug":"beli-aplikasi-bekam","title":"Beli Aplikasi Bekam — Software Klinik Bekam Siap Pakai"},
-    {"slug":"jual-source-code-bekam","title":"Jual Source Code Aplikasi Bekam — Sistem Manajemen Klinik"},
-    {"slug":"aplikasi-klinik-bekam","title":"Aplikasi Klinik Bekam — Software Manajemen Klinik Bekam"},
-    {"slug":"website-bekam","title":"Website Bekam Profesional — Jasa Pembuatan Website Klinik Bekam"},
-    {"slug":"download-aplikasi-bekam","title":"Download Aplikasi Bekam — Source Code LMS Klinik Bekam"},
-    {"slug":"software-bekam","title":"Software Bekam — Aplikasi Booking & Manajemen Pasien Bekam"},
-    {"slug":"harga-aplikasi-bekam","title":"Harga Aplikasi Bekam — Biaya Pembuatan Software Klinik Bekam"},
-    {"slug":"demo-aplikasi-bekam","title":"Demo Aplikasi Bekam — Coba Gratis Software Klinik Bekam"},
-    {"slug":"bisnis-bekam","title":"Peluang Bisnis Bekam — Cara Buka Klinik Bekam & Aplikasinya"}
-  ]
+﻿{
+    "domain":  "https://bekam.whitelabel.co.id",
+    "phone":  "6282117834032",
+    "brand":  "BekamAkhwat",
+    "year":  2026,
+    "cities":  [
+                   {
+                       "name":  "Jakarta",
+                       "slug":  "jakarta",
+                       "province":  "DKI Jakarta",
+                       "type":  "metropolitan"
+                   },
+                   {
+                       "name":  "Jakarta Pusat",
+                       "slug":  "jakarta-pusat",
+                       "province":  "DKI Jakarta",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Jakarta Utara",
+                       "slug":  "jakarta-utara",
+                       "province":  "DKI Jakarta",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Jakarta Selatan",
+                       "slug":  "jakarta-selatan",
+                       "province":  "DKI Jakarta",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Jakarta Timur",
+                       "slug":  "jakarta-timur",
+                       "province":  "DKI Jakarta",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Jakarta Barat",
+                       "slug":  "jakarta-barat",
+                       "province":  "DKI Jakarta",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Bandung",
+                       "slug":  "bandung",
+                       "province":  "Jawa Barat",
+                       "type":  "metropolitan"
+                   },
+                   {
+                       "name":  "Surabaya",
+                       "slug":  "surabaya",
+                       "province":  "Jawa Timur",
+                       "type":  "metropolitan"
+                   },
+                   {
+                       "name":  "Medan",
+                       "slug":  "medan",
+                       "province":  "Sumatera Utara",
+                       "type":  "metropolitan"
+                   },
+                   {
+                       "name":  "Semarang",
+                       "slug":  "semarang",
+                       "province":  "Jawa Tengah",
+                       "type":  "metropolitan"
+                   },
+                   {
+                       "name":  "Yogyakarta",
+                       "slug":  "yogyakarta",
+                       "province":  "DI Yogyakarta",
+                       "type":  "metropolitan"
+                   },
+                   {
+                       "name":  "Tangerang",
+                       "slug":  "tangerang",
+                       "province":  "Banten",
+                       "type":  "metropolitan"
+                   },
+                   {
+                       "name":  "Tangerang Selatan",
+                       "slug":  "tangerang-selatan",
+                       "province":  "Banten",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Depok",
+                       "slug":  "depok",
+                       "province":  "Jawa Barat",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Bekasi",
+                       "slug":  "bekasi",
+                       "province":  "Jawa Barat",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Bogor",
+                       "slug":  "bogor",
+                       "province":  "Jawa Barat",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Makassar",
+                       "slug":  "makassar",
+                       "province":  "Sulawesi Selatan",
+                       "type":  "metropolitan"
+                   },
+                   {
+                       "name":  "Palembang",
+                       "slug":  "palembang",
+                       "province":  "Sumatera Selatan",
+                       "type":  "metropolitan"
+                   },
+                   {
+                       "name":  "Pekanbaru",
+                       "slug":  "pekanbaru",
+                       "province":  "Riau",
+                       "type":  "metropolitan"
+                   },
+                   {
+                       "name":  "Balikpapan",
+                       "slug":  "balikpapan",
+                       "province":  "Kalimantan Timur",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Samarinda",
+                       "slug":  "samarinda",
+                       "province":  "Kalimantan Timur",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Banjarmasin",
+                       "slug":  "banjarmasin",
+                       "province":  "Kalimantan Selatan",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Pontianak",
+                       "slug":  "pontianak",
+                       "province":  "Kalimantan Barat",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Manado",
+                       "slug":  "manado",
+                       "province":  "Sulawesi Utara",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Denpasar",
+                       "slug":  "denpasar",
+                       "province":  "Bali",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Malang",
+                       "slug":  "malang",
+                       "province":  "Jawa Timur",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Solo",
+                       "slug":  "solo",
+                       "province":  "Jawa Tengah",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Padang",
+                       "slug":  "padang",
+                       "province":  "Sumatera Barat",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Bandar Lampung",
+                       "slug":  "bandar-lampung",
+                       "province":  "Lampung",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Batam",
+                       "slug":  "batam",
+                       "province":  "Kepulauan Riau",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Cirebon",
+                       "slug":  "cirebon",
+                       "province":  "Jawa Barat",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Tasikmalaya",
+                       "slug":  "tasikmalaya",
+                       "province":  "Jawa Barat",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Cimahi",
+                       "slug":  "cimahi",
+                       "province":  "Jawa Barat",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Sukabumi",
+                       "slug":  "sukabumi",
+                       "province":  "Jawa Barat",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Cilegon",
+                       "slug":  "cilegon",
+                       "province":  "Banten",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Serang",
+                       "slug":  "serang",
+                       "province":  "Banten",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Purwokerto",
+                       "slug":  "purwokerto",
+                       "province":  "Jawa Tengah",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Purworejo",
+                       "slug":  "purworejo",
+                       "province":  "Jawa Tengah",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Magelang",
+                       "slug":  "magelang",
+                       "province":  "Jawa Tengah",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Salatiga",
+                       "slug":  "salatiga",
+                       "province":  "Jawa Tengah",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Pekalongan",
+                       "slug":  "pekalongan",
+                       "province":  "Jawa Tengah",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Tegal",
+                       "slug":  "tegal",
+                       "province":  "Jawa Tengah",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Kudus",
+                       "slug":  "kudus",
+                       "province":  "Jawa Tengah",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Jepara",
+                       "slug":  "jepara",
+                       "province":  "Jawa Tengah",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Pati",
+                       "slug":  "pati",
+                       "province":  "Jawa Tengah",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Rembang",
+                       "slug":  "rembang",
+                       "province":  "Jawa Tengah",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Klaten",
+                       "slug":  "klaten",
+                       "province":  "Jawa Tengah",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Boyolali",
+                       "slug":  "boyolali",
+                       "province":  "Jawa Tengah",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Karanganyar",
+                       "slug":  "karanganyar",
+                       "province":  "Jawa Tengah",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Sragen",
+                       "slug":  "sragen",
+                       "province":  "Jawa Tengah",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Wonogiri",
+                       "slug":  "wonogiri",
+                       "province":  "Jawa Tengah",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Sleman",
+                       "slug":  "sleman",
+                       "province":  "DI Yogyakarta",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Bantul",
+                       "slug":  "bantul",
+                       "province":  "DI Yogyakarta",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Gunung Kidul",
+                       "slug":  "gunung-kidul",
+                       "province":  "DI Yogyakarta",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Kulon Progo",
+                       "slug":  "kulon-progo",
+                       "province":  "DI Yogyakarta",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Kediri",
+                       "slug":  "kediri",
+                       "province":  "Jawa Timur",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Blitar",
+                       "slug":  "blitar",
+                       "province":  "Jawa Timur",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Madiun",
+                       "slug":  "madiun",
+                       "province":  "Jawa Timur",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Mojokerto",
+                       "slug":  "mojokerto",
+                       "province":  "Jawa Timur",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Pasuruan",
+                       "slug":  "pasuruan",
+                       "province":  "Jawa Timur",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Probolinggo",
+                       "slug":  "probolinggo",
+                       "province":  "Jawa Timur",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Jember",
+                       "slug":  "jember",
+                       "province":  "Jawa Timur",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Banyuwangi",
+                       "slug":  "banyuwangi",
+                       "province":  "Jawa Timur",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Sidoarjo",
+                       "slug":  "sidoarjo",
+                       "province":  "Jawa Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Gresik",
+                       "slug":  "gresik",
+                       "province":  "Jawa Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Lamongan",
+                       "slug":  "lamongan",
+                       "province":  "Jawa Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Tuban",
+                       "slug":  "tuban",
+                       "province":  "Jawa Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Bojonegoro",
+                       "slug":  "bojonegoro",
+                       "province":  "Jawa Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Ngawi",
+                       "slug":  "ngawi",
+                       "province":  "Jawa Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Ponorogo",
+                       "slug":  "ponorogo",
+                       "province":  "Jawa Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Pacitan",
+                       "slug":  "pacitan",
+                       "province":  "Jawa Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Trenggalek",
+                       "slug":  "trenggalek",
+                       "province":  "Jawa Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Tulungagung",
+                       "slug":  "tulungagung",
+                       "province":  "Jawa Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Lumajang",
+                       "slug":  "lumajang",
+                       "province":  "Jawa Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Situbondo",
+                       "slug":  "situbondo",
+                       "province":  "Jawa Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Bondowoso",
+                       "slug":  "bondowoso",
+                       "province":  "Jawa Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Bangkalan",
+                       "slug":  "bangkalan",
+                       "province":  "Jawa Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Sampang",
+                       "slug":  "sampang",
+                       "province":  "Jawa Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Pamekasan",
+                       "slug":  "pamekasan",
+                       "province":  "Jawa Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Sumenep",
+                       "slug":  "sumenep",
+                       "province":  "Jawa Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Banda Aceh",
+                       "slug":  "banda-aceh",
+                       "province":  "Aceh",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Lhokseumawe",
+                       "slug":  "lhokseumawe",
+                       "province":  "Aceh",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Langsa",
+                       "slug":  "langsa",
+                       "province":  "Aceh",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Binjai",
+                       "slug":  "binjai",
+                       "province":  "Sumatera Utara",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Pematang Siantar",
+                       "slug":  "pematang-siantar",
+                       "province":  "Sumatera Utara",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Tebing Tinggi",
+                       "slug":  "tebing-tinggi",
+                       "province":  "Sumatera Utara",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Padang Sidempuan",
+                       "slug":  "padang-sidempuan",
+                       "province":  "Sumatera Utara",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Sibolga",
+                       "slug":  "sibolga",
+                       "province":  "Sumatera Utara",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Bukittinggi",
+                       "slug":  "bukittinggi",
+                       "province":  "Sumatera Barat",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Payakumbuh",
+                       "slug":  "payakumbuh",
+                       "province":  "Sumatera Barat",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Solok",
+                       "slug":  "solok",
+                       "province":  "Sumatera Barat",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Pariaman",
+                       "slug":  "pariaman",
+                       "province":  "Sumatera Barat",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Sawahlunto",
+                       "slug":  "sawahlunto",
+                       "province":  "Sumatera Barat",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Dumai",
+                       "slug":  "dumai",
+                       "province":  "Riau",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Jambi",
+                       "slug":  "jambi",
+                       "province":  "Jambi",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Sungai Penuh",
+                       "slug":  "sungai-penuh",
+                       "province":  "Jambi",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Bengkulu",
+                       "slug":  "bengkulu",
+                       "province":  "Bengkulu",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Palangkaraya",
+                       "slug":  "palangkaraya",
+                       "province":  "Kalimantan Tengah",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Banjarbaru",
+                       "slug":  "banjarbaru",
+                       "province":  "Kalimantan Selatan",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Tarakan",
+                       "slug":  "tarakan",
+                       "province":  "Kalimantan Utara",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Bontang",
+                       "slug":  "bontang",
+                       "province":  "Kalimantan Timur",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Singkawang",
+                       "slug":  "singkawang",
+                       "province":  "Kalimantan Barat",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Palu",
+                       "slug":  "palu",
+                       "province":  "Sulawesi Tengah",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Kendari",
+                       "slug":  "kendari",
+                       "province":  "Sulawesi Tenggara",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Gorontalo",
+                       "slug":  "gorontalo",
+                       "province":  "Gorontalo",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Bitung",
+                       "slug":  "bitung",
+                       "province":  "Sulawesi Utara",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Tomohon",
+                       "slug":  "tomohon",
+                       "province":  "Sulawesi Utara",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Kotamobagu",
+                       "slug":  "kotamobagu",
+                       "province":  "Sulawesi Utara",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Parepare",
+                       "slug":  "parepare",
+                       "province":  "Sulawesi Selatan",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Palopo",
+                       "slug":  "palopo",
+                       "province":  "Sulawesi Selatan",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Bau-Bau",
+                       "slug":  "bau-bau",
+                       "province":  "Sulawesi Tenggara",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Ambon",
+                       "slug":  "ambon",
+                       "province":  "Maluku",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Tual",
+                       "slug":  "tual",
+                       "province":  "Maluku",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Ternate",
+                       "slug":  "ternate",
+                       "province":  "Maluku Utara",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Tidore",
+                       "slug":  "tidore",
+                       "province":  "Maluku Utara",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Jayapura",
+                       "slug":  "jayapura",
+                       "province":  "Papua",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Sorong",
+                       "slug":  "sorong",
+                       "province":  "Papua Barat Daya",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Manokwari",
+                       "slug":  "manokwari",
+                       "province":  "Papua Barat",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Merauke",
+                       "slug":  "merauke",
+                       "province":  "Papua Selatan",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Biak",
+                       "slug":  "biak",
+                       "province":  "Papua",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Timika",
+                       "slug":  "timika",
+                       "province":  "Papua Tengah",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Mataram",
+                       "slug":  "mataram",
+                       "province":  "Nusa Tenggara Barat",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Bima",
+                       "slug":  "bima",
+                       "province":  "Nusa Tenggara Barat",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Sumbawa",
+                       "slug":  "sumbawa",
+                       "province":  "Nusa Tenggara Barat",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Kupang",
+                       "slug":  "kupang",
+                       "province":  "Nusa Tenggara Timur",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Ende",
+                       "slug":  "ende",
+                       "province":  "Nusa Tenggara Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Maumere",
+                       "slug":  "maumere",
+                       "province":  "Nusa Tenggara Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Ruteng",
+                       "slug":  "ruteng",
+                       "province":  "Nusa Tenggara Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Labuan Bajo",
+                       "slug":  "labuan-bajo",
+                       "province":  "Nusa Tenggara Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Waingapu",
+                       "slug":  "waingapu",
+                       "province":  "Nusa Tenggara Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Atambua",
+                       "slug":  "atambua",
+                       "province":  "Nusa Tenggara Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Pangkal Pinang",
+                       "slug":  "pangkal-pinang",
+                       "province":  "Kepulauan Bangka Belitung",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Tanjung Pinang",
+                       "slug":  "tanjung-pinang",
+                       "province":  "Kepulauan Riau",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Serpong",
+                       "slug":  "serpong",
+                       "province":  "Banten",
+                       "type":  "kecamatan"
+                   },
+                   {
+                       "name":  "Cibubur",
+                       "slug":  "cibubur",
+                       "province":  "Jawa Barat",
+                       "type":  "kecamatan"
+                   },
+                   {
+                       "name":  "Kelapa Gading",
+                       "slug":  "kelapa-gading",
+                       "province":  "DKI Jakarta",
+                       "type":  "kecamatan"
+                   },
+                   {
+                       "name":  "Cikarang",
+                       "slug":  "cikarang",
+                       "province":  "Jawa Barat",
+                       "type":  "kecamatan"
+                   },
+                   {
+                       "name":  "Karawang",
+                       "slug":  "karawang",
+                       "province":  "Jawa Barat",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Cianjur",
+                       "slug":  "cianjur",
+                       "province":  "Jawa Barat",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Garut",
+                       "slug":  "garut",
+                       "province":  "Jawa Barat",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Sumedang",
+                       "slug":  "sumedang",
+                       "province":  "Jawa Barat",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Majalengka",
+                       "slug":  "majalengka",
+                       "province":  "Jawa Barat",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Indramayu",
+                       "slug":  "indramayu",
+                       "province":  "Jawa Barat",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Kuningan",
+                       "slug":  "kuningan",
+                       "province":  "Jawa Barat",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Subang",
+                       "slug":  "subang",
+                       "province":  "Jawa Barat",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Purwakarta",
+                       "slug":  "purwakarta",
+                       "province":  "Jawa Barat",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Banjarnegara",
+                       "slug":  "banjarnegara",
+                       "province":  "Jawa Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Banyumas",
+                       "slug":  "banyumas",
+                       "province":  "Jawa Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Batang",
+                       "slug":  "batang",
+                       "province":  "Jawa Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Blora",
+                       "slug":  "blora",
+                       "province":  "Jawa Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Brebes",
+                       "slug":  "brebes",
+                       "province":  "Jawa Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Cilacap",
+                       "slug":  "cilacap",
+                       "province":  "Jawa Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Demak",
+                       "slug":  "demak",
+                       "province":  "Jawa Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Grobogan",
+                       "slug":  "grobogan",
+                       "province":  "Jawa Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Kendal",
+                       "slug":  "kendal",
+                       "province":  "Jawa Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Kebumen",
+                       "slug":  "kebumen",
+                       "province":  "Jawa Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Pemalang",
+                       "slug":  "pemalang",
+                       "province":  "Jawa Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Purbalingga",
+                       "slug":  "purbalingga",
+                       "province":  "Jawa Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Temanggung",
+                       "slug":  "temanggung",
+                       "province":  "Jawa Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Wonosobo",
+                       "slug":  "wonosobo",
+                       "province":  "Jawa Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Aceh Besar",
+                       "slug":  "aceh-besar",
+                       "province":  "Aceh",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Aceh Utara",
+                       "slug":  "aceh-utara",
+                       "province":  "Aceh",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Deli Serdang",
+                       "slug":  "deli-serdang",
+                       "province":  "Sumatera Utara",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Langkat",
+                       "slug":  "langkat",
+                       "province":  "Sumatera Utara",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Asahan",
+                       "slug":  "asahan",
+                       "province":  "Sumatera Utara",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Labuhanbatu",
+                       "slug":  "labuhanbatu",
+                       "province":  "Sumatera Utara",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Tapanuli",
+                       "slug":  "tapanuli",
+                       "province":  "Sumatera Utara",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Agam",
+                       "slug":  "agam",
+                       "province":  "Sumatera Barat",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Tanah Datar",
+                       "slug":  "tanah-datar",
+                       "province":  "Sumatera Barat",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Pasaman",
+                       "slug":  "pasaman",
+                       "province":  "Sumatera Barat",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Kampar",
+                       "slug":  "kampar",
+                       "province":  "Riau",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Bengkalis",
+                       "slug":  "bengkalis",
+                       "province":  "Riau",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Indragiri",
+                       "slug":  "indragiri",
+                       "province":  "Riau",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Batanghari",
+                       "slug":  "batanghari",
+                       "province":  "Jambi",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Bungo",
+                       "slug":  "bungo",
+                       "province":  "Jambi",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Muaro Jambi",
+                       "slug":  "muaro-jambi",
+                       "province":  "Jambi",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Ogan Ilir",
+                       "slug":  "ogan-ilir",
+                       "province":  "Sumatera Selatan",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Ogan Komering",
+                       "slug":  "ogan-komering",
+                       "province":  "Sumatera Selatan",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Musi Banyuasin",
+                       "slug":  "musi-banyuasin",
+                       "province":  "Sumatera Selatan",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Lahat",
+                       "slug":  "lahat",
+                       "province":  "Sumatera Selatan",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Lubuk Linggau",
+                       "slug":  "lubuk-linggau",
+                       "province":  "Sumatera Selatan",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Prabumulih",
+                       "slug":  "prabumulih",
+                       "province":  "Sumatera Selatan",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Metro",
+                       "slug":  "metro",
+                       "province":  "Lampung",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Kotabumi",
+                       "slug":  "kotabumi",
+                       "province":  "Lampung",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Pringsewu",
+                       "slug":  "pringsewu",
+                       "province":  "Lampung",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Ketapang",
+                       "slug":  "ketapang",
+                       "province":  "Kalimantan Barat",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Sintang",
+                       "slug":  "sintang",
+                       "province":  "Kalimantan Barat",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Sambas",
+                       "slug":  "sambas",
+                       "province":  "Kalimantan Barat",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Kubu Raya",
+                       "slug":  "kubu-raya",
+                       "province":  "Kalimantan Barat",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Kotawaringin",
+                       "slug":  "kotawaringin",
+                       "province":  "Kalimantan Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Barito",
+                       "slug":  "barito",
+                       "province":  "Kalimantan Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Kapuas",
+                       "slug":  "kapuas",
+                       "province":  "Kalimantan Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Tanah Laut",
+                       "slug":  "tanah-laut",
+                       "province":  "Kalimantan Selatan",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Tanah Bumbu",
+                       "slug":  "tanah-bumbu",
+                       "province":  "Kalimantan Selatan",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Kotabaru",
+                       "slug":  "kotabaru",
+                       "province":  "Kalimantan Selatan",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Tapin",
+                       "slug":  "tapin",
+                       "province":  "Kalimantan Selatan",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Hulu Sungai",
+                       "slug":  "hulu-sungai",
+                       "province":  "Kalimantan Selatan",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Kutai",
+                       "slug":  "kutai",
+                       "province":  "Kalimantan Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Paser",
+                       "slug":  "paser",
+                       "province":  "Kalimantan Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Berau",
+                       "slug":  "berau",
+                       "province":  "Kalimantan Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Bulungan",
+                       "slug":  "bulungan",
+                       "province":  "Kalimantan Utara",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Malinau",
+                       "slug":  "malinau",
+                       "province":  "Kalimantan Utara",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Nunukan",
+                       "slug":  "nunukan",
+                       "province":  "Kalimantan Utara",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Minahasa",
+                       "slug":  "minahasa",
+                       "province":  "Sulawesi Utara",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Bolaang Mongondow",
+                       "slug":  "bolaang-mongondow",
+                       "province":  "Sulawesi Utara",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Sangihe",
+                       "slug":  "sangihe",
+                       "province":  "Sulawesi Utara",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Talaud",
+                       "slug":  "talaud",
+                       "province":  "Sulawesi Utara",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Poso",
+                       "slug":  "poso",
+                       "province":  "Sulawesi Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Donggala",
+                       "slug":  "donggala",
+                       "province":  "Sulawesi Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Toli-Toli",
+                       "slug":  "toli-toli",
+                       "province":  "Sulawesi Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Banggai",
+                       "slug":  "banggai",
+                       "province":  "Sulawesi Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Morowali",
+                       "slug":  "morowali",
+                       "province":  "Sulawesi Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Bone",
+                       "slug":  "bone",
+                       "province":  "Sulawesi Selatan",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Gowa",
+                       "slug":  "gowa",
+                       "province":  "Sulawesi Selatan",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Maros",
+                       "slug":  "maros",
+                       "province":  "Sulawesi Selatan",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Pangkep",
+                       "slug":  "pangkep",
+                       "province":  "Sulawesi Selatan",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Bulukumba",
+                       "slug":  "bulukumba",
+                       "province":  "Sulawesi Selatan",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Sinjai",
+                       "slug":  "sinjai",
+                       "province":  "Sulawesi Selatan",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Soppeng",
+                       "slug":  "soppeng",
+                       "province":  "Sulawesi Selatan",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Wajo",
+                       "slug":  "wajo",
+                       "province":  "Sulawesi Selatan",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Sidrap",
+                       "slug":  "sidrap",
+                       "province":  "Sulawesi Selatan",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Enrekang",
+                       "slug":  "enrekang",
+                       "province":  "Sulawesi Selatan",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Luwu",
+                       "slug":  "luwu",
+                       "province":  "Sulawesi Selatan",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Tana Toraja",
+                       "slug":  "tana-toraja",
+                       "province":  "Sulawesi Selatan",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Kolaka",
+                       "slug":  "kolaka",
+                       "province":  "Sulawesi Tenggara",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Buton",
+                       "slug":  "buton",
+                       "province":  "Sulawesi Tenggara",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Muna",
+                       "slug":  "muna",
+                       "province":  "Sulawesi Tenggara",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Konawe",
+                       "slug":  "konawe",
+                       "province":  "Sulawesi Tenggara",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Lombok",
+                       "slug":  "lombok",
+                       "province":  "Nusa Tenggara Barat",
+                       "type":  "pulau"
+                   },
+                   {
+                       "name":  "Sumbawa Besar",
+                       "slug":  "sumbawa-besar",
+                       "province":  "Nusa Tenggara Barat",
+                       "type":  "kota"
+                   },
+                   {
+                       "name":  "Dompu",
+                       "slug":  "dompu",
+                       "province":  "Nusa Tenggara Barat",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Flores",
+                       "slug":  "flores",
+                       "province":  "Nusa Tenggara Timur",
+                       "type":  "pulau"
+                   },
+                   {
+                       "name":  "Timor",
+                       "slug":  "timor",
+                       "province":  "Nusa Tenggara Timur",
+                       "type":  "pulau"
+                   },
+                   {
+                       "name":  "Sumba",
+                       "slug":  "sumba",
+                       "province":  "Nusa Tenggara Timur",
+                       "type":  "pulau"
+                   },
+                   {
+                       "name":  "Alor",
+                       "slug":  "alor",
+                       "province":  "Nusa Tenggara Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Rote",
+                       "slug":  "rote",
+                       "province":  "Nusa Tenggara Timur",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Buru",
+                       "slug":  "buru",
+                       "province":  "Maluku",
+                       "type":  "pulau"
+                   },
+                   {
+                       "name":  "Seram",
+                       "slug":  "seram",
+                       "province":  "Maluku",
+                       "type":  "pulau"
+                   },
+                   {
+                       "name":  "Halmahera",
+                       "slug":  "halmahera",
+                       "province":  "Maluku Utara",
+                       "type":  "pulau"
+                   },
+                   {
+                       "name":  "Yapen",
+                       "slug":  "yapen",
+                       "province":  "Papua",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Nabire",
+                       "slug":  "nabire",
+                       "province":  "Papua Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Mimika",
+                       "slug":  "mimika",
+                       "province":  "Papua Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Fakfak",
+                       "slug":  "fakfak",
+                       "province":  "Papua Barat",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Raja Ampat",
+                       "slug":  "raja-ampat",
+                       "province":  "Papua Barat Daya",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Bintuni",
+                       "slug":  "bintuni",
+                       "province":  "Papua Barat",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Kaimana",
+                       "slug":  "kaimana",
+                       "province":  "Papua Barat",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Sarmi",
+                       "slug":  "sarmi",
+                       "province":  "Papua",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Keerom",
+                       "slug":  "keerom",
+                       "province":  "Papua",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Jayawijaya",
+                       "slug":  "jayawijaya",
+                       "province":  "Papua Pegunungan",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Puncak Jaya",
+                       "slug":  "puncak-jaya",
+                       "province":  "Papua Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Sukoharjo",
+                       "slug":  "sukoharjo",
+                       "province":  "Jawa Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Wonogiri",
+                       "slug":  "wonogiri",
+                       "province":  "Jawa Tengah",
+                       "type":  "kabupaten"
+                   },
+                   {
+                       "name":  "Tanjung Priok",
+                       "slug":  "tanjung-priok",
+                       "province":  "DKI Jakarta",
+                       "type":  "kecamatan"
+                   }
+               ],
+    "conditions":  [
+                       {
+                           "name":  "Migrain",
+                           "slug":  "migrain",
+                           "desc":  "sakit kepala sebelah kronis",
+                           "category":  "sakit-kepala"
+                       },
+                       {
+                           "name":  "Darah Tinggi",
+                           "slug":  "darah-tinggi",
+                           "desc":  "hipertensi atau tekanan darah tinggi",
+                           "category":  "kardiovaskular"
+                       },
+                       {
+                           "name":  "Asam Urat",
+                           "slug":  "asam-urat",
+                           "desc":  "nyeri sendi akibat kadar asam urat tinggi",
+                           "category":  "sendi"
+                       },
+                       {
+                           "name":  "Kolesterol",
+                           "slug":  "kolesterol",
+                           "desc":  "kadar kolesterol tinggi dalam darah",
+                           "category":  "kardiovaskular"
+                       },
+                       {
+                           "name":  "Pegal Linu",
+                           "slug":  "pegal-linu",
+                           "desc":  "nyeri otot dan badan pegal",
+                           "category":  "otot"
+                       },
+                       {
+                           "name":  "Nyeri Punggung",
+                           "slug":  "nyeri-punggung",
+                           "desc":  "sakit pada area punggung",
+                           "category":  "otot"
+                       },
+                       {
+                           "name":  "Nyeri Sendi",
+                           "slug":  "nyeri-sendi",
+                           "desc":  "radang dan nyeri pada persendian",
+                           "category":  "sendi"
+                       },
+                       {
+                           "name":  "Masuk Angin",
+                           "slug":  "masuk-angin",
+                           "desc":  "gejala tidak enak badan",
+                           "category":  "ringan"
+                       },
+                       {
+                           "name":  "Insomnia",
+                           "slug":  "insomnia",
+                           "desc":  "susah tidur atau gangguan tidur",
+                           "category":  "mental"
+                       },
+                       {
+                           "name":  "Stress",
+                           "slug":  "stress",
+                           "desc":  "stres dan tekanan mental",
+                           "category":  "mental"
+                       },
+                       {
+                           "name":  "Kesemutan",
+                           "slug":  "kesemutan",
+                           "desc":  "kebas dan kesemutan pada tangan dan kaki",
+                           "category":  "saraf"
+                       },
+                       {
+                           "name":  "Sakit Lutut",
+                           "slug":  "sakit-lutut",
+                           "desc":  "nyeri pada lutut",
+                           "category":  "sendi"
+                       },
+                       {
+                           "name":  "Sakit Bahu",
+                           "slug":  "sakit-bahu",
+                           "desc":  "nyeri dan kaku pada bahu",
+                           "category":  "otot"
+                       },
+                       {
+                           "name":  "Sakit Leher",
+                           "slug":  "sakit-leher",
+                           "desc":  "nyeri dan tegang pada leher",
+                           "category":  "otot"
+                       },
+                       {
+                           "name":  "Sakit Pinggang",
+                           "slug":  "sakit-pinggang",
+                           "desc":  "nyeri pada area pinggang",
+                           "category":  "otot"
+                       },
+                       {
+                           "name":  "Vertigo",
+                           "slug":  "vertigo",
+                           "desc":  "pusing berputar dan kehilangan keseimbangan",
+                           "category":  "sakit-kepala"
+                       },
+                       {
+                           "name":  "Sinusitis",
+                           "slug":  "sinusitis",
+                           "desc":  "radang pada rongga sinus",
+                           "category":  "pernafasan"
+                       },
+                       {
+                           "name":  "Asma",
+                           "slug":  "asma",
+                           "desc":  "gangguan pernafasan sesak nafas",
+                           "category":  "pernafasan"
+                       },
+                       {
+                           "name":  "Batuk Kronis",
+                           "slug":  "batuk-kronis",
+                           "desc":  "batuk berkepanjangan",
+                           "category":  "pernafasan"
+                       },
+                       {
+                           "name":  "Pencernaan",
+                           "slug":  "pencernaan",
+                           "desc":  "gangguan sistem pencernaan",
+                           "category":  "pencernaan"
+                       },
+                       {
+                           "name":  "Maag",
+                           "slug":  "maag",
+                           "desc":  "sakit lambung dan asam lambung",
+                           "category":  "pencernaan"
+                       },
+                       {
+                           "name":  "Sembelit",
+                           "slug":  "sembelit",
+                           "desc":  "susah buang air besar",
+                           "category":  "pencernaan"
+                       },
+                       {
+                           "name":  "Haid Tidak Lancar",
+                           "slug":  "haid-tidak-lancar",
+                           "desc":  "gangguan siklus menstruasi",
+                           "category":  "wanita"
+                       },
+                       {
+                           "name":  "Nyeri Haid",
+                           "slug":  "nyeri-haid",
+                           "desc":  "sakit saat menstruasi",
+                           "category":  "wanita"
+                       },
+                       {
+                           "name":  "Keputihan",
+                           "slug":  "keputihan",
+                           "desc":  "cairan berlebih pada area kewanitaan",
+                           "category":  "wanita"
+                       },
+                       {
+                           "name":  "Kista",
+                           "slug":  "kista",
+                           "desc":  "kista ovarium ringan",
+                           "category":  "wanita"
+                       },
+                       {
+                           "name":  "PCOS",
+                           "slug":  "pcos",
+                           "desc":  "sindrom ovarium polikistik",
+                           "category":  "wanita"
+                       },
+                       {
+                           "name":  "Miom",
+                           "slug":  "miom",
+                           "desc":  "tumor jinak pada rahim",
+                           "category":  "wanita"
+                       },
+                       {
+                           "name":  "Endometriosis",
+                           "slug":  "endometriosis",
+                           "desc":  "pertumbuhan jaringan di luar rahim",
+                           "category":  "wanita"
+                       },
+                       {
+                           "name":  "Diabetes",
+                           "slug":  "diabetes",
+                           "desc":  "kadar gula darah tinggi",
+                           "category":  "metabolik"
+                       },
+                       {
+                           "name":  "Obesitas",
+                           "slug":  "obesitas",
+                           "desc":  "kelebihan berat badan",
+                           "category":  "metabolik"
+                       },
+                       {
+                           "name":  "Lumpuh Sebelah",
+                           "slug":  "lumpuh-sebelah",
+                           "desc":  "stroke ringan atau bell\u0027s palsy",
+                           "category":  "saraf"
+                       },
+                       {
+                           "name":  "Saraf Kejepit",
+                           "slug":  "saraf-kejepit",
+                           "desc":  "saraf terjepit di tulang belakang",
+                           "category":  "saraf"
+                       },
+                       {
+                           "name":  "Linu Panggul",
+                           "slug":  "linu-panggul",
+                           "desc":  "nyeri menjalar dari pinggang ke kaki",
+                           "category":  "saraf"
+                       },
+                       {
+                           "name":  "Sakit Gigi",
+                           "slug":  "sakit-gigi",
+                           "desc":  "nyeri pada gigi dan gusi",
+                           "category":  "lainnya"
+                       },
+                       {
+                           "name":  "Jerawat",
+                           "slug":  "jerawat",
+                           "desc":  "masalah kulit wajah berjerawat",
+                           "category":  "kulit"
+                       },
+                       {
+                           "name":  "Eksim",
+                           "slug":  "eksim",
+                           "desc":  "peradangan kulit kronis",
+                           "category":  "kulit"
+                       },
+                       {
+                           "name":  "Alergi",
+                           "slug":  "alergi",
+                           "desc":  "reaksi alergi berlebihan",
+                           "category":  "imun"
+                       },
+                       {
+                           "name":  "Imun Lemah",
+                           "slug":  "imun-lemah",
+                           "desc":  "sistem kekebalan tubuh rendah",
+                           "category":  "imun"
+                       },
+                       {
+                           "name":  "Anemia",
+                           "slug":  "anemia",
+                           "desc":  "kekurangan sel darah merah",
+                           "category":  "darah"
+                       },
+                       {
+                           "name":  "Wasir",
+                           "slug":  "wasir",
+                           "desc":  "ambeien atau pembengkakan pembuluh darah",
+                           "category":  "pencernaan"
+                       },
+                       {
+                           "name":  "Varises",
+                           "slug":  "varises",
+                           "desc":  "pembuluh darah vena membesar",
+                           "category":  "kardiovaskular"
+                       },
+                       {
+                           "name":  "Kaki Bengkak",
+                           "slug":  "kaki-bengkak",
+                           "desc":  "edema atau pembengkakan kaki",
+                           "category":  "kardiovaskular"
+                       },
+                       {
+                           "name":  "Kram Otot",
+                           "slug":  "kram-otot",
+                           "desc":  "kejang otot mendadak",
+                           "category":  "otot"
+                       },
+                       {
+                           "name":  "Sakit Kepala",
+                           "slug":  "sakit-kepala",
+                           "desc":  "nyeri kepala secara umum",
+                           "category":  "sakit-kepala"
+                       },
+                       {
+                           "name":  "Jantung",
+                           "slug":  "jantung",
+                           "desc":  "gangguan kardiovaskular",
+                           "category":  "kardiovaskular"
+                       },
+                       {
+                           "name":  "Lelah Kronis",
+                           "slug":  "lelah-kronis",
+                           "desc":  "kelelahan berkepanjangan",
+                           "category":  "mental"
+                       },
+                       {
+                           "name":  "Cemas",
+                           "slug":  "cemas",
+                           "desc":  "gangguan kecemasan berlebih",
+                           "category":  "mental"
+                       },
+                       {
+                           "name":  "Depresi",
+                           "slug":  "depresi",
+                           "desc":  "gangguan mood dan depresi ringan",
+                           "category":  "mental"
+                       },
+                       {
+                           "name":  "Stroke Ringan",
+                           "slug":  "stroke-ringan",
+                           "desc":  "gejala awal stroke",
+                           "category":  "saraf"
+                       },
+                       {
+                           "name":  "Epilepsi",
+                           "slug":  "epilepsi",
+                           "desc":  "gangguan kejang pada otak",
+                           "category":  "saraf"
+                       },
+                       {
+                           "name":  "Parkinson",
+                           "slug":  "parkinson",
+                           "desc":  "gangguan gerak pada lansia",
+                           "category":  "saraf"
+                       },
+                       {
+                           "name":  "Asam Lambung",
+                           "slug":  "asam-lambung",
+                           "desc":  "GERD atau refluks asam lambung",
+                           "category":  "pencernaan"
+                       },
+                       {
+                           "name":  "Tipes",
+                           "slug":  "tipes",
+                           "desc":  "demam tifoid pemulihan",
+                           "category":  "infeksi"
+                       },
+                       {
+                           "name":  "DBD",
+                           "slug":  "dbd",
+                           "desc":  "demam berdarah pemulihan",
+                           "category":  "infeksi"
+                       },
+                       {
+                           "name":  "Hepatitis",
+                           "slug":  "hepatitis",
+                           "desc":  "radang hati atau liver",
+                           "category":  "infeksi"
+                       },
+                       {
+                           "name":  "Ginjal",
+                           "slug":  "ginjal",
+                           "desc":  "gangguan fungsi ginjal",
+                           "category":  "organ"
+                       },
+                       {
+                           "name":  "Paru-Paru",
+                           "slug":  "paru-paru",
+                           "desc":  "gangguan pernafasan kronis",
+                           "category":  "pernafasan"
+                       },
+                       {
+                           "name":  "Hati",
+                           "slug":  "hati",
+                           "desc":  "gangguan fungsi liver",
+                           "category":  "organ"
+                       },
+                       {
+                           "name":  "Limpa",
+                           "slug":  "limpa",
+                           "desc":  "gangguan limpa",
+                           "category":  "organ"
+                       },
+                       {
+                           "name":  "Tiroid",
+                           "slug":  "tiroid",
+                           "desc":  "gangguan kelenjar tiroid",
+                           "category":  "hormon"
+                       },
+                       {
+                           "name":  "Hormon",
+                           "slug":  "hormon",
+                           "desc":  "ketidakseimbangan hormon",
+                           "category":  "hormon"
+                       },
+                       {
+                           "name":  "Menopause",
+                           "slug":  "menopause",
+                           "desc":  "gejala menopause pada wanita",
+                           "category":  "wanita"
+                       },
+                       {
+                           "name":  "Kesuburan",
+                           "slug":  "kesuburan",
+                           "desc":  "masalah kesuburan atau fertilitas",
+                           "category":  "wanita"
+                       },
+                       {
+                           "name":  "Hamil",
+                           "slug":  "hamil",
+                           "desc":  "keluhan selama kehamilan",
+                           "category":  "wanita"
+                       },
+                       {
+                           "name":  "Pasca Melahirkan",
+                           "slug":  "pasca-melahirkan",
+                           "desc":  "pemulihan setelah melahirkan",
+                           "category":  "wanita"
+                       },
+                       {
+                           "name":  "Rematik",
+                           "slug":  "rematik",
+                           "desc":  "radang sendi kronis",
+                           "category":  "sendi"
+                       },
+                       {
+                           "name":  "Osteoporosis",
+                           "slug":  "osteoporosis",
+                           "desc":  "pengeroposan tulang",
+                           "category":  "tulang"
+                       },
+                       {
+                           "name":  "Pengapuran",
+                           "slug":  "pengapuran",
+                           "desc":  "pengapuran sendi dan tulang",
+                           "category":  "tulang"
+                       },
+                       {
+                           "name":  "Patah Tulang",
+                           "slug":  "patah-tulang",
+                           "desc":  "pemulihan pasca patah tulang",
+                           "category":  "tulang"
+                       },
+                       {
+                           "name":  "Cedera Olahraga",
+                           "slug":  "cedera-olahraga",
+                           "desc":  "cedera akibat aktivitas olahraga",
+                           "category":  "otot"
+                       }
+                   ],
+    "topics":  [
+                   {
+                       "name":  "Bekam Sunnah",
+                       "slug":  "bekam-sunnah",
+                       "desc":  "Panduan bekam sesuai sunnah Rasulullah SAW"
+                   },
+                   {
+                       "name":  "Titik Bekam",
+                       "slug":  "titik-bekam",
+                       "desc":  "Titik-titik bekam yang dianjurkan"
+                   },
+                   {
+                       "name":  "Hari Terbaik Bekam",
+                       "slug":  "hari-terbaik-bekam",
+                       "desc":  "Hari-hari yang dianjurkan untuk bekam"
+                   },
+                   {
+                       "name":  "Persiapan Sebelum Bekam",
+                       "slug":  "persiapan-sebelum-bekam",
+                       "desc":  "Yang perlu disiapkan sebelum terapi"
+                   },
+                   {
+                       "name":  "Pantangan Setelah Bekam",
+                       "slug":  "pantangan-setelah-bekam",
+                       "desc":  "Yang dihindari setelah terapi bekam"
+                   },
+                   {
+                       "name":  "Bekam untuk Pemula",
+                       "slug":  "bekam-untuk-pemula",
+                       "desc":  "Panduan bekam pertama kali"
+                   },
+                   {
+                       "name":  "Manfaat Bekam",
+                       "slug":  "manfaat-bekam",
+                       "desc":  "Manfaat bekam bagi kesehatan"
+                   },
+                   {
+                       "name":  "Efek Samping Bekam",
+                       "slug":  "efek-samping-bekam",
+                       "desc":  "Efek samping normal setelah bekam"
+                   },
+                   {
+                       "name":  "Bekam vs Medis",
+                       "slug":  "bekam-vs-medis",
+                       "desc":  "Perbandingan terapi bekam dan medis modern"
+                   },
+                   {
+                       "name":  "Sejarah Bekam",
+                       "slug":  "sejarah-bekam",
+                       "desc":  "Sejarah terapi bekam dari zaman nabi"
+                   },
+                   {
+                       "name":  "Hadits Tentang Bekam",
+                       "slug":  "hadits-tentang-bekam",
+                       "desc":  "Kumpulan hadits tentang bekam"
+                   },
+                   {
+                       "name":  "Doa Sebelum Bekam",
+                       "slug":  "doa-sebelum-bekam",
+                       "desc":  "Doa dan bacaan sebelum terapi"
+                   },
+                   {
+                       "name":  "Bekam untuk Ibu Hamil",
+                       "slug":  "bekam-untuk-ibu-hamil",
+                       "desc":  "Panduan bekam untuk ibu hamil"
+                   },
+                   {
+                       "name":  "Bekam untuk Lansia",
+                       "slug":  "bekam-untuk-lansia",
+                       "desc":  "Bekam untuk orang tua atau lansia"
+                   },
+                   {
+                       "name":  "Bekam untuk Anak",
+                       "slug":  "bekam-untuk-anak",
+                       "desc":  "Bekam untuk anak-anak"
+                   },
+                   {
+                       "name":  "Alat Bekam Modern",
+                       "slug":  "alat-bekam-modern",
+                       "desc":  "Peralatan bekam modern vs tradisional"
+                   },
+                   {
+                       "name":  "Sterilisasi Alat Bekam",
+                       "slug":  "sterilisasi-alat-bekam",
+                       "desc":  "Cara sterilisasi alat bekam yang benar"
+                   },
+                   {
+                       "name":  "Bekam dan Ruqyah",
+                       "slug":  "bekam-dan-ruqyah",
+                       "desc":  "Kombinasi bekam dengan terapi ruqyah"
+                   },
+                   {
+                       "name":  "Bekam untuk Kecantikan",
+                       "slug":  "bekam-untuk-kecantikan",
+                       "desc":  "Bekam untuk perawatan kecantikan"
+                   },
+                   {
+                       "name":  "Biaya Bekam",
+                       "slug":  "biaya-bekam",
+                       "desc":  "Estimasi biaya bekam di Indonesia"
+                   }
+               ],
+    "comparisons":  [
+                        {
+                            "a":  "Bekam Kering",
+                            "aSlug":  "bekam-kering",
+                            "b":  "Bekam Basah",
+                            "bSlug":  "bekam-basah",
+                            "context":  "perbedaan metode bekam"
+                        },
+                        {
+                            "a":  "Bekam",
+                            "aSlug":  "bekam",
+                            "b":  "Akupuntur",
+                            "bSlug":  "akupuntur",
+                            "context":  "terapi alternatif"
+                        },
+                        {
+                            "a":  "Bekam",
+                            "aSlug":  "bekam",
+                            "b":  "Pijat Refleksi",
+                            "bSlug":  "pijat-refleksi",
+                            "context":  "terapi tubuh"
+                        },
+                        {
+                            "a":  "Bekam",
+                            "aSlug":  "bekam",
+                            "b":  "Chiropractic",
+                            "bSlug":  "chiropractic",
+                            "context":  "terapi tulang"
+                        },
+                        {
+                            "a":  "Bekam",
+                            "aSlug":  "bekam",
+                            "b":  "Gurah",
+                            "bSlug":  "gurah",
+                            "context":  "terapi tradisional"
+                        },
+                        {
+                            "a":  "Bekam",
+                            "aSlug":  "bekam",
+                            "b":  "Totok Punggung",
+                            "bSlug":  "totok-punggung",
+                            "context":  "terapi tradisional"
+                        },
+                        {
+                            "a":  "Bekam",
+                            "aSlug":  "bekam",
+                            "b":  "Kerokan",
+                            "bSlug":  "kerokan",
+                            "context":  "terapi tradisional"
+                        },
+                        {
+                            "a":  "Bekam",
+                            "aSlug":  "bekam",
+                            "b":  "Fisioterapi",
+                            "bSlug":  "fisioterapi",
+                            "context":  "rehabilitasi fisik"
+                        },
+                        {
+                            "a":  "Bekam Basah",
+                            "aSlug":  "bekam-basah",
+                            "b":  "Donor Darah",
+                            "bSlug":  "donor-darah",
+                            "context":  "pengeluaran darah"
+                        },
+                        {
+                            "a":  "Bekam",
+                            "aSlug":  "bekam",
+                            "b":  "Obat Kimia",
+                            "bSlug":  "obat-kimia",
+                            "context":  "pengobatan"
+                        },
+                        {
+                            "a":  "Bekam",
+                            "aSlug":  "bekam",
+                            "b":  "Herbal",
+                            "bSlug":  "herbal",
+                            "context":  "pengobatan alami"
+                        },
+                        {
+                            "a":  "Bekam",
+                            "aSlug":  "bekam",
+                            "b":  "Terapi Listrik",
+                            "bSlug":  "terapi-listrik",
+                            "context":  "terapi modern"
+                        },
+                        {
+                            "a":  "Bekam Klinik",
+                            "aSlug":  "bekam-klinik",
+                            "b":  "Bekam Panggilan",
+                            "bSlug":  "bekam-panggilan",
+                            "context":  "jenis layanan"
+                        },
+                        {
+                            "a":  "Bekam Manual",
+                            "aSlug":  "bekam-manual",
+                            "b":  "Bekam Elektrik",
+                            "bSlug":  "bekam-elektrik",
+                            "context":  "alat bekam"
+                        },
+                        {
+                            "a":  "Bekam Satu Kali",
+                            "aSlug":  "bekam-satu-kali",
+                            "b":  "Bekam Rutin",
+                            "bSlug":  "bekam-rutin",
+                            "context":  "frekuensi"
+                        },
+                        {
+                            "a":  "Bekam",
+                            "aSlug":  "bekam",
+                            "b":  "Thibbun Nabawi",
+                            "bSlug":  "thibbun-nabawi",
+                            "context":  "pengobatan islami"
+                        },
+                        {
+                            "a":  "Bekam Pria",
+                            "aSlug":  "bekam-pria",
+                            "b":  "Bekam Wanita",
+                            "bSlug":  "bekam-wanita",
+                            "context":  "gender"
+                        },
+                        {
+                            "a":  "Bekam Rumahan",
+                            "aSlug":  "bekam-rumahan",
+                            "b":  "Bekam Profesional",
+                            "bSlug":  "bekam-profesional",
+                            "context":  "tempat"
+                        },
+                        {
+                            "a":  "Bekam Premium",
+                            "aSlug":  "bekam-premium",
+                            "b":  "Bekam Ekonomis",
+                            "bSlug":  "bekam-ekonomis",
+                            "context":  "harga"
+                        }
+                    ],
+    "sourceCodePages":  [
+                            {
+                                "slug":  "source-code-aplikasi-bekam",
+                                "title":  "Source Code Aplikasi Bekam â€” Jual Beli Source Code Klinik Bekam"
+                            },
+                            {
+                                "slug":  "beli-aplikasi-bekam",
+                                "title":  "Beli Aplikasi Bekam â€” Software Klinik Bekam Siap Pakai"
+                            },
+                            {
+                                "slug":  "jual-source-code-bekam",
+                                "title":  "Jual Source Code Aplikasi Bekam â€” Sistem Manajemen Klinik"
+                            },
+                            {
+                                "slug":  "aplikasi-klinik-bekam",
+                                "title":  "Aplikasi Klinik Bekam â€” Software Manajemen Klinik Bekam"
+                            },
+                            {
+                                "slug":  "website-bekam",
+                                "title":  "Website Bekam Profesional â€” Jasa Pembuatan Website Klinik Bekam"
+                            },
+                            {
+                                "slug":  "download-aplikasi-bekam",
+                                "title":  "Download Aplikasi Bekam â€” Source Code LMS Klinik Bekam"
+                            },
+                            {
+                                "slug":  "software-bekam",
+                                "title":  "Software Bekam â€” Aplikasi Booking \u0026 Manajemen Pasien Bekam"
+                            },
+                            {
+                                "slug":  "harga-aplikasi-bekam",
+                                "title":  "Harga Aplikasi Bekam â€” Biaya Pembuatan Software Klinik Bekam"
+                            },
+                            {
+                                "slug":  "demo-aplikasi-bekam",
+                                "title":  "Demo Aplikasi Bekam â€” Coba Gratis Software Klinik Bekam"
+                            },
+                            {
+                                "slug":  "bisnis-bekam",
+                                "title":  "Peluang Bisnis Bekam â€” Cara Buka Klinik Bekam \u0026 Aplikasinya"
+                            }
+                        ]
 }
