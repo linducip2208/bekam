@@ -38,4 +38,82 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     }
+
+    // --- Visitor Stats Counter ---
+    (function() {
+        var currentPage = window.location.pathname || '/';
+
+        function formatNumber(n) {
+            if (n >= 1000000) return (n / 1000000).toFixed(1).replace('.0', '') + 'jt';
+            if (n >= 1000) return (n / 1000).toFixed(1).replace('.0', '') + 'rb';
+            return String(n);
+        }
+
+        function updateStats(data) {
+            var elOnline = document.getElementById('stat-online');
+            var elToday = document.getElementById('stat-today');
+            var elTotal = document.getElementById('stat-total');
+            var elPageviews = document.getElementById('stat-pageviews');
+
+            if (elOnline) elOnline.textContent = data.online;
+            if (elToday) elToday.textContent = formatNumber(data.today_visitors);
+            if (elTotal) elTotal.textContent = formatNumber(data.total_visitors);
+            if (elPageviews) elPageviews.textContent = formatNumber(data.total_pageviews);
+
+            // Tambah class pop animasi
+            [elOnline, elToday, elTotal, elPageviews].forEach(function(el) {
+                if (el) {
+                    el.classList.add('stats-pop');
+                    setTimeout(function() { el.classList.remove('stats-pop'); }, 400);
+                }
+            });
+        }
+
+        function showError(msg) {
+            var errEl = document.getElementById('stats-error');
+            if (errEl) {
+                errEl.textContent = msg;
+                errEl.classList.remove('hidden');
+            }
+        }
+
+        function fetchStats() {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', '/counter.php?action=get&_=' + Date.now(), true);
+            xhr.timeout = 5000;
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    try {
+                        var data = JSON.parse(xhr.responseText);
+                        updateStats(data);
+                    } catch (e) {
+                        showError('Gagal memuat statistik');
+                    }
+                }
+            };
+            xhr.onerror = function() {
+                showError('Statistik tidak tersedia (server tidak mendukung PHP)');
+            };
+            xhr.send();
+        }
+
+        function trackPageview() {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', '/counter.php?action=track&page=' + encodeURIComponent(currentPage), true);
+            xhr.timeout = 3000;
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    try {
+                        var data = JSON.parse(xhr.responseText);
+                        updateStats(data);
+                    } catch (e) {}
+                }
+            };
+            xhr.send();
+        }
+
+        // Track pageview dulu, lalu polling stats tiap 15 detik
+        trackPageview();
+        setInterval(fetchStats, 15000);
+    })();
 });

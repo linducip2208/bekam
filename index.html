@@ -50,6 +50,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VZ0QB43NJQ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-VZ0QB43NJQ');
+    </script>
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -504,6 +512,27 @@
                     </li>
                 </ul>
             </div>
+        </div>
+        <div class="border-t border-stone-700 pt-8 mb-6">
+            <div id="visitor-stats" class="flex flex-wrap justify-center gap-3 md:gap-5 text-center">
+                <div class="stats-item bg-stone-800/50 backdrop-blur rounded-xl px-5 py-3 border border-stone-700 min-w-[100px]">
+                    <div class="text-2xl font-bold text-brand-400 font-display" id="stat-online">-</div>
+                    <div class="text-xs text-stone-400 mt-0.5">Online</div>
+                </div>
+                <div class="stats-item bg-stone-800/50 backdrop-blur rounded-xl px-5 py-3 border border-stone-700 min-w-[100px]">
+                    <div class="text-2xl font-bold text-brand-400 font-display" id="stat-today">-</div>
+                    <div class="text-xs text-stone-400 mt-0.5">Hari Ini</div>
+                </div>
+                <div class="stats-item bg-stone-800/50 backdrop-blur rounded-xl px-5 py-3 border border-stone-700 min-w-[100px]">
+                    <div class="text-2xl font-bold text-brand-400 font-display" id="stat-total">-</div>
+                    <div class="text-xs text-stone-400 mt-0.5">Total Pengunjung</div>
+                </div>
+                <div class="stats-item bg-stone-800/50 backdrop-blur rounded-xl px-5 py-3 border border-stone-700 min-w-[100px]">
+                    <div class="text-2xl font-bold text-brand-400 font-display" id="stat-pageviews">-</div>
+                    <div class="text-xs text-stone-400 mt-0.5">Total Tayangan</div>
+                </div>
+            </div>
+            <div id="stats-error" class="hidden text-center text-xs text-stone-500 mt-3"></div>
         </div>
         <div class="border-t border-stone-800 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-stone-500">
             <p>&copy; 2026 BekamAkhwat. Seluruh hak cipta dilindungi.</p>

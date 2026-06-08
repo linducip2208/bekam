@@ -54,3 +54,21 @@ details summary {
 html {
     scroll-behavior: smooth;
 }
+
+/* Visitor Stats Badge */
+.stats-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.stats-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px -6px rgba(5, 150, 105, 0.2);
+}
+
+@keyframes statsPop {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); color: #34d399; }
+    100% { transform: scale(1); }
+}
+.stats-pop {
+    animation: statsPop 0.4s ease;
+}
