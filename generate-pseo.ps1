@@ -266,6 +266,26 @@ $CITY_P2C = '<h2 class="font-display text-2xl font-bold text-stone-900 mb-4 mt-8
 $CITY_BENEFITS = '<div class="mt-12 grid sm:grid-cols-3 gap-6"><div class="bg-brand-50 rounded-2xl p-6 text-center card-lift"><div class="text-3xl mb-3">&#128105;&#8205;&#9877;&#65039;</div><h4 class="font-semibold text-stone-800 mb-1">Terapis Wanita</h4><p class="text-xs text-stone-500">100% muslimah bersertifikat</p></div><div class="bg-brand-50 rounded-2xl p-6 text-center card-lift"><div class="text-3xl mb-3">&#128737;&#65039;</div><h4 class="font-semibold text-stone-800 mb-1">Privasi Terjaga</h4><p class="text-xs text-stone-500">Ruang tertutup satu pasien</p></div><div class="bg-brand-50 rounded-2xl p-6 text-center card-lift"><div class="text-3xl mb-3">&#128308;</div><h4 class="font-semibold text-stone-800 mb-1">Alat Steril</h4><p class="text-xs text-stone-500">Disposable sekali pakai</p></div></div>'
 
 # ----------------------------------------------------------
+# CONTENT: Akhwat-specific paragraphs (more Islamic/syari'ah focus)
+# ----------------------------------------------------------
+$AKH_P1A = '<p class="mb-4">Bagi <strong>akhwat dan muslimah</strong> di <strong>{{N}}</strong> yang mencari tempat bekam yang benar-benar islami, {{B}} hadir sebagai jawaban. Kami adalah klinik bekam <strong>syar''iyyah khusus wanita</strong> yang menjalankan terapi sesuai tuntunan Rasulullah SAW. Tidak ada terapis laki-laki di tempat kami - 100% terapis muslimah bersertifikat yang memahami kebutuhan dan batasan syar''i para akhwat.</p>'
+$AKH_P1B = '<p class="mb-4">Mencari <strong>bekam khusus akhwat di {{N}}</strong> bukanlah hal mudah. Banyak tempat bekam umum yang tidak memperhatikan privasi muslimah, mencampur pasien laki-laki dan perempuan, atau bahkan menggunakan terapis laki-laki. {{B}} berbeda - kami dirancang dari awal untuk menjadi <strong>tempat bekam yang aman dan nyaman bagi para akhwat</strong>. Setiap aspek layanan kami - mulai dari ruang terapi, alat, hingga prosedur - mengikuti standar syariat Islam.</p>'
+$AKH_P1C = '<p class="mb-4">Para akhwat di <strong>{{N}}</strong> dan <strong>{{P}}</strong> kini tidak perlu ragu lagi untuk berbekam. {{B}} menyediakan layanan bekam kering, bekam basah (hijamah), dan bekam + ruqyah dalam lingkungan yang <strong>sepenuhnya islami</strong>. Ruang terapi kami tertutup sempurna, aurat Anda terjaga, dan setiap sesi diawali dengan doa dan niat mengikuti sunnah. Inilah standar bekam yang sesungguhnya dibutuhkan para muslimah.</p>'
+$AKH_P1D = '<p class="mb-4">Kami memahami bahwa sebagai akhwat, kenyamanan dan keamanan saat berbekam adalah prioritas utama. Di {{B}}, Anda tidak akan bertemu pasien laki-laki di area terapi, tidak ada kamera yang mengganggu, dan semua prosedur dilakukan oleh sesama muslimah. Klinik kami di <strong>Jakarta Utara</strong> juga mudah dijangkau dari berbagai wilayah <strong>{{N}}</strong> dan {{P}}, menjadikannya pilihan ideal bagi akhwat yang mencari bekam berkualitas.</p>'
+$AKH_P1E = '<p class="mb-4"><strong>PENTING: Bekam dilakukan di klinik kami, bukan panggilan ke rumah.</strong> Untuk menjamin sterilisasi alat dan privasi maksimal, seluruh layanan bekam di {{B}} dilakukan di <strong>klinik kami di Jakarta Utara</strong>. Kami TIDAK menyediakan layanan bekam panggilan (home service) karena alat bekam memerlukan sterilisasi standar medis yang hanya bisa dilakukan di klinik. Dengan datang langsung ke klinik, Anda juga mendapatkan fasilitas lengkap: ruang terapi ber-AC, tempat wudhu, mushola, dan area tunggu yang nyaman.</p>'
+$AKH_P1F = '<p class="mb-4">Tidak seperti jasa bekam panggilan yang kebersihannya sulit terjamin, <strong>{{B}} hanya melayani terapi di klinik kami</strong>. Setiap alat bekam melalui proses sterilisasi ketat sebelum digunakan. Ruang terapi dibersihkan dan disterilkan setelah setiap pasien. Ini adalah standar yang tidak mungkin dipenuhi oleh layanan bekam panggilan ke rumah. Demi kesehatan dan keselamatan Anda, kami memilih untuk fokus pada pelayanan di klinik.</p>'
+
+$AKH_CLINIC_NOTICE = '<div class="mt-8 p-5 bg-amber-50 border border-amber-200 rounded-2xl"><div class="flex items-start gap-3"><div class="text-2xl">&#128204;</div><div><h3 class="font-semibold text-stone-800 mb-1">&#9888;&#65039; Lokasi Terapi</h3><p class="text-sm text-stone-600">Seluruh layanan bekam dilakukan <strong>di klinik kami</strong>: Jl. Kampung Bahari 2 No. 34, Tanjung Priok, Jakarta Utara. Kami <strong>TIDAK melayani bekam panggilan</strong> ke rumah. Semua alat di-sterilisasi di klinik sesuai standar medis. Tersedia tempat wudhu, mushola, ruang tunggu ber-AC, dan parkir luas.</p></div></div>'
+
+$AKH_P2A = '<h2 class="font-display text-2xl font-bold text-stone-900 mb-4 mt-8">Mengapa Akhwat Perlu Bekam Sunnah?</h2><p class="mb-4">Rasulullah SAW bersabda: <em>Kesembuhan itu ada pada tiga hal: minum madu, sayatan bekam, dan kay (sundutan api). Dan aku melarang umatku berobat dengan kay.</em> (HR. Bukhari). Hadits ini menegaskan bahwa bekam adalah salah satu metode pengobatan yang <strong>dianjurkan langsung oleh Rasulullah SAW</strong>. Bagi para akhwat, menjalani bekam bukan sekadar terapi fisik - ini adalah ibadah dan ittiba'' (mengikuti sunnah).</p><p class="mb-4">Secara medis modern, bekam terbukti efektif untuk <strong>mengatasi berbagai keluhan kewanitaan</strong> yang sering dialami akhwat: nyeri haid, haid tidak lancar, keputihan, kista, miom, PCOS, hingga masalah kesuburan. Bekam juga membantu meredakan migrain, pegal linu, asam urat, kolesterol, dan darah tinggi - semua dalam satu terapi yang islami.</p><p class="mb-4">Yang lebih istimewa, bekam memiliki dimensi spiritual yang tidak dimiliki pengobatan konvensional. Dengan niat yang benar, setiap sesi bekam bernilai pahala. Inilah mengapa semakin banyak akhwat di <strong>{{N}}</strong> yang beralih ke bekam sebagai pilihan utama perawatan kesehatan mereka.</p>'
+
+$AKH_P2B = '<h2 class="font-display text-2xl font-bold text-stone-900 mb-4 mt-8">Kenapa Harus Bekam Khusus Akhwat di {{N}}?</h2><p class="mb-4">Bekam di tempat umum yang melayani pasien campuran (ikhwan dan akhwat) memiliki banyak keterbatasan bagi muslimah. Anda mungkin harus antri bersama laki-laki, ruang terapi yang kurang tertutup, atau bahkan ditangani oleh terapis laki-laki. <strong>{{B}} menghilangkan semua kekhawatiran itu.</strong></p><p class="mb-4">Di {{B}}, setiap akhwat mendapatkan <strong>privasi penuh</strong>: ruang terapi individual tertutup, terapis muslimah yang memahami adab islami, dan lingkungan yang sepenuhnya bebas dari laki-laki. Anda bisa berbekam dengan tenang, melepas pakaian sesuai kebutuhan terapi tanpa rasa cemas. Kami juga menyediakan mukena dan kain penutup untuk kenyamanan ibadah sebelum/sesudah terapi.</p><p class="mb-4">Bagi akhwat di <strong>{{N}}</strong> dan {{P}} yang selama ini kesulitan menemukan tempat bekam yang benar-benar islami, {{B}} adalah solusinya. Kami telah melayani ribuan akhwat dari berbagai daerah dan Alhamdulillah mendapat kepercayaan penuh karena komitmen kami menjaga standar syariat.</p>'
+
+$AKH_P2C = '<h2 class="font-display text-2xl font-bold text-stone-900 mb-4 mt-8">Kapan Waktu Terbaik Bekam untuk Akhwat?</h2><p class="mb-4">Dalam Islam, terdapat <strong>waktu-waktu yang dianjurkan untuk berbekam</strong> berdasarkan sunnah Rasulullah SAW. Hari terbaik untuk bekam adalah <strong>tanggal 17, 19, dan 21 setiap bulan Hijriyah</strong>. Pada tanggal-tanggal tersebut, darah kotor dan toksin berada di puncak permukaan sehingga lebih mudah dikeluarkan. Banyak akhwat di <strong>{{N}}</strong> yang menjadwalkan bekam rutin mereka di tanggal-tanggal sunnah ini.</p><p class="mb-4">Rasulullah SAW juga menganjurkan bekam di hari Senin, Selasa, dan Kamis. Beliau bersabda: <em>Barangsiapa berbekam pada hari Selasa tanggal 17, maka itu menjadi obat untuk penyakit selama setahun.</em> (HR. Al-Hakim). Kami membantu para akhwat merencanakan jadwal bekam yang sesuai dengan kalender Hijriyah untuk hasil maksimal, baik secara medis maupun spiritual.</p><p class="mb-4">Untuk akhwat yang sedang <strong>haid</strong>, sebaiknya menunda bekam hingga suci karena tubuh dalam kondisi kehilangan darah. Begitu pula untuk ibu hamil, sebaiknya konsultasi terlebih dahulu dengan bidan atau dokter sebelum menjalani bekam. Terapis kami akan selalu melakukan screening awal untuk memastikan keamanan dan kenyamanan Anda.</p>'
+
+$AKH_BENEFITS = '<div class="mt-12 grid sm:grid-cols-3 gap-6"><div class="bg-brand-50 rounded-2xl p-6 text-center card-lift"><div class="text-3xl mb-3">&#129469;</div><h4 class="font-semibold text-stone-800 mb-1">Sunnah Rasul</h4><p class="text-xs text-stone-500">Ittiba'' sunnah + manfaat kesehatan</p></div><div class="bg-brand-50 rounded-2xl p-6 text-center card-lift"><div class="text-3xl mb-3">&#128330;&#65039;</div><h4 class="font-semibold text-stone-800 mb-1">Privasi Akhwat</h4><p class="text-xs text-stone-500">100% muslimah, ruang tertutup</p></div><div class="bg-brand-50 rounded-2xl p-6 text-center card-lift"><div class="text-3xl mb-3">&#129534;</div><h4 class="font-semibold text-stone-800 mb-1">Ruqyah Syar''iyyah</h4><p class="text-xs text-stone-500">Bekam + doa ruqyah sunnah</p></div></div>'
+
+# ----------------------------------------------------------
 # CONTENT: Condition page paragraphs
 # ----------------------------------------------------------
 $COND_P1A = '<p class="mb-4"><strong>{{N}}</strong> ({{D}}) merupakan salah satu keluhan kesehatan yang sering dialami oleh banyak wanita. Kondisi ini bisa sangat mengganggu aktivitas sehari-hari dan menurunkan kualitas hidup. Kabar baiknya, terapi bekam telah terbukti secara ilmiah maupun berdasarkan pengalaman empiris mampu membantu meredakan dan mengatasi kondisi {{D}} ini.</p>'
@@ -358,6 +378,38 @@ function Gen-CityPages($slugPrefix, $h1Prefix, $descTxt, $titlePrefix, $subTxt, 
         $p2 = $p2s[$hash % $p2s.Length].Replace('{{N}}',$n).Replace('{{P}}',$p).Replace('{{B}}',$BRAND)
         $body = '<section class="py-12 lg:py-16 bg-white"><div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 reveal"><div class="prose prose-stone max-w-none text-stone-700 leading-relaxed">' + $p1 + $p2 + '</div>' + $CITY_BENEFITS.Replace('{{N}}',$n) + '</div></section>'
         $jsonld = Get-JSONLD 'MedicalBusiness' "Bekam di $n" $desc
+        $html = Build-Page $title $desc $canonical $jsonld $h1 $sub $body $ctaT2 $ctaD2
+        Write-Page "$OutDir\$slug" $html
+    }
+}
+
+# ----------------------------------------------------------
+# GENERATOR: Akhwat-specific pages (bekam akhwat keywords)
+# ----------------------------------------------------------
+function Gen-AkhwatPages($slugPrefix, $h1Prefix, $descTxt, $titlePrefix, $subTxt, $ctaT, $ctaD, $takeN) {
+    $cities = $data.cities
+    if ($takeN -gt 0) { $cities = $cities[0..($takeN-1)] }
+    $total = $cities.Count
+    Write-Host "  $slugPrefix ({0} pages)..." -f $total
+    $p1s = @($AKH_P1A, $AKH_P1B, $AKH_P1C, $AKH_P1D, $AKH_P1E, $AKH_P1F)
+    $p2s = @($AKH_P2A, $AKH_P2B, $AKH_P2C)
+    foreach ($city in $cities) {
+        $n = $city.name
+        $s = $city.slug
+        $p = $city.province
+        $slug = ($slugPrefix -replace '\{slug\}', $s)
+        $canonical = "$DOMAIN/pseo/$slug"
+        $h1 = ($h1Prefix -replace '\{name\}', $n).Replace('{province}',$p)
+        $title = ($titlePrefix -replace '\{name\}', $n).Replace('{province}',$p)
+        $desc = ($descTxt -replace '\{name\}', $n).Replace('{province}',$p)
+        $sub = ($subTxt -replace '\{name\}', $n).Replace('{province}',$p)
+        $ctaT2 = ($ctaT -replace '\{name\}', $n).Replace('{province}',$p)
+        $ctaD2 = ($ctaD -replace '\{name\}', $n).Replace('{province}',$p)
+        $hash = [Math]::Abs($s.GetHashCode())
+        $p1 = $p1s[$hash % $p1s.Length].Replace('{{N}}',$n).Replace('{{P}}',$p).Replace('{{B}}',$BRAND)
+        $p2 = $p2s[$hash % $p2s.Length].Replace('{{N}}',$n).Replace('{{P}}',$p).Replace('{{B}}',$BRAND)
+        $body = '<section class="py-12 lg:py-16 bg-white"><div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 reveal"><div class="prose prose-stone max-w-none text-stone-700 leading-relaxed">' + $p1 + $p2 + '</div>' + $AKH_BENEFITS.Replace('{{N}}',$n) + $AKH_CLINIC_NOTICE + '</div></section>'
+        $jsonld = Get-JSONLD 'MedicalBusiness' "Bekam Akhwat di $n" $desc
         $html = Build-Page $title $desc $canonical $jsonld $h1 $sub $body $ctaT2 $ctaD2
         Write-Page "$OutDir\$slug" $html
     }
@@ -511,6 +563,16 @@ Gen-CityPages 'bekam-wanita-{slug}.html' 'Bekam Wanita di {name} - Klinik Khusus
 
 # terapi-bekam-{city} — 80 cities
 Gen-CityPages 'terapi-bekam-{slug}.html' 'Terapi Bekam di {name} - Layanan Bekam Sunnah {province}' 'Terapi bekam di {name}, {province}. Bekam kering, bekam basah, hijamah & ruqyah oleh terapis muslimah. Booking mudah via WhatsApp.' 'Terapi Bekam di {name} - Layanan Bekam Syariyyah Khusus Muslimah' 'Layanan terapi bekam lengkap untuk muslimah di {name} & {province}. Kering, basah, dan ruqyah.' 'Terapi Bekam di {name}' 'Booking sesi terapi bekam Anda sekarang. Konsultasi GRATIS.' 80
+
+# ==================== AKHWAT-SPECIFIC PSEO ====================
+# bekam-akhwat-{city} — 130 cities
+Gen-AkhwatPages 'bekam-akhwat-{slug}.html' 'Bekam Akhwat di {name} - Klinik Bekam Khusus Muslimah {province}' 'Bekam khusus akhwat & muslimah di {name} ({province}). Terapis muslimah 100%, privasi syar''i terjaga penuh. Booking bekam kering, hijamah basah & ruqyah.' 'Bekam Akhwat {name} - Tempat Bekam Syar''iyyah Khusus Muslimah di {name}' 'Klinik bekam khusus akhwat di {name}, {province}. Privasi islami, terapis muslimah bersertifikat, alat steril. Booking via WhatsApp.' 'Booking Bekam Akhwat di {name}' 'Konsultasi GRATIS dengan terapis muslimah. Booking mudah via WhatsApp.' 130
+
+# klinik-bekam-akhwat-{city} — 100 cities
+Gen-AkhwatPages 'klinik-bekam-akhwat-{slug}.html' 'Klinik Bekam Akhwat di {name} - Bekam Syar''iyyah Muslimah {province}' 'Klinik bekam khusus akhwat di {name} ({province}). Layanan bekam kering, basah & ruqyah oleh terapis muslimah profesional. Alat steril, privasi aman.' 'Klinik Bekam Akhwat di {name} - Layanan Bekam Syariyyah Khusus Muslimah' 'Tempat bekam syar''iyyah untuk akhwat di {name}, {province}. Terapis wanita, ruang tertutup, sesuai sunnah.' 'Klinik Bekam Akhwat di {name}' 'Booking di klinik bekam khusus muslimah. Konsultasi GRATIS via WhatsApp.' 100
+
+# bekam-khusus-akhwat-{city} — 90 cities
+Gen-AkhwatPages 'bekam-khusus-akhwat-{slug}.html' 'Bekam Khusus Akhwat di {name} - Terapi Sunnah Muslimah {province}' 'Bekam khusus akhwat di {name} ({province}). Tempat bekam eksklusif muslimah, tanpa campur laki-laki. Terapis wanita, privasi penuh, booking via WhatsApp.' 'Bekam Khusus Akhwat di {name} - Terapi Eksklusif Muslimah {province}' 'Layanan bekam eksklusif untuk akhwat & muslimah di {name}. Privasi terjaga, terapis wanita profesional.' 'Bekam Khusus Akhwat di {name}' 'Dapatkan pengalaman bekam islami eksklusif. Booking via WhatsApp sekarang.' 90
 
 # Condition pages — 60 conditions each
 Gen-ConditionPages 60
